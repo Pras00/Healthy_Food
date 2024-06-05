@@ -20,3 +20,55 @@
   display: flex;
   transition: 0.3s ease-out;
 }
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  object-fit: cover;
+}
+
+.border-gradient-1 {
+  border-top: 8px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-2 {
+  border-bottom: 8px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-3 {
+  border-right: 8px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-4 {
+  border-left: 8px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-1-2 {
+  border-top: 3px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-2-2 {
+  border-bottom: 3px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-3-2 {
+  border-right: 3px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
+.border-gradient-4-2 {
+  border-left: 3px solid;
+  border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}

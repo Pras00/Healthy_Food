@@ -7,7 +7,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script> 
   <title>JV Page</title>
@@ -69,8 +68,11 @@
   </section>
 
 
+  <video autoplay muted loop id="bg-video">
+    <source src="./img/video.mp4" type="video/mp4">
+  </video>
   <!-- Hero -->
-  <section>
+  <section class="relative bg-video">
     <div class="flex flex-col justify-center items-center text-center px-32 max-[992px]:px-24 max-[768px]:px-8 max-[480px]:px-4 mt-16 max-[768px]:mt-12 max-[480px]:mt-7">
       <h1 class="headline text-[4rem] max-[992px]:text-[3rem] max-[768px]:text-[2.65rem] max-[480px]:text-[1.5rem] leading-[4rem] max-[768px]:leading-[3rem] max-[480px]:leading-[2rem] text-black font-semibold">Join Us Promoting <br> Our <span class="text-[#3A8EF6]">Premium Healthy Recipe</span> Collection <br> Get Instant Commissions on <br> Easy to Sell Nutritious and Delicious Recipes</h1>
       <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] px-10 max-[992px]:px-5 max-[480px]:px-2 py-2 rounded-[20px] mt-5">
@@ -85,6 +87,153 @@
     </div>
   </section>
 
+  <!-- Timeline -->
+  <section class="flex place-content-center gap-10 max-[600px]:gap-5 max-[480px]:gap-3 py-12 max-[768px]:py-8 max-[600px]:py-5">
+    <div class="bg-white rounded-b-[30px] px-8 py-2 border-[#3A8EF6] border-t-[7px]">
+      <h1 class="text-[4rem] max-[768px]:text-[3rem] max-[600px]:text-[2.5rem] max-[480px]:text-[1.75rem] font-medium">Start On</h1>
+      <h3 class="text-[1.5rem] max-[768px]:text-[1.15rem] max-[600px]:text-[1rem] max-[480px]:text-[0.8rem]">July 1st, 2024</h3>
+      <h3 class="text-[1.15rem] max-[768px]:text-[0.9rem] max-[600px]:text-[0.8rem] max-[480px]:text-[0.6rem]">09:00 EST</h3>
+    </div>
+    <div class="bg-white rounded-b-[30px] px-8 py-2 border-[#3A8EF6] border-t-[7px]">
+      <h1 class="text-[4rem] max-[768px]:text-[3rem] max-[600px]:text-[2.5rem] max-[480px]:text-[1.75rem] font-medium">Ends On</h1>
+      <h3 class="text-[1.5rem] max-[768px]:text-[1.15rem] max-[600px]:text-[1rem] max-[480px]:text-[0.8rem]">July 5th, 2024</h3>
+      <h3 class="text-[1.15rem] max-[768px]:text-[0.9rem] max-[600px]:text-[0.8rem] max-[480px]:text-[0.6rem]">12:00 EST</h3>
+    </div>
+  </section>
+
+  <!-- Countdown -->
+  <section class="countdown-container flex flex-col place-content-center px-10 max-[480px]:px-3 mb-20">
+    <h3 class="text-[2rem] max-[992px]:text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] font-light text-center">Going Live - Saturday, 26th October 2024, 09:00 AM EST</h3>
+    <div class="countdown flex justify-center items-start gap-4">
+      <div class="flex flex-col justify-center items-center">
+        <div class="days text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
+        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Days</p>
+      </div>
+      <div class="text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium">:</div>
+      <div class="flex flex-col justify-center items-center">
+        <div class="hours text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
+        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Hours</p>
+      </div>
+      <div class="text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium">:</div>
+      <div class="flex flex-col justify-center items-center">
+        <div class="minutes text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
+        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Minutes</p>
+      </div>
+    </div>
+    <div class="relative flex flex-col place-content-center">
+      <div class="grid grid-cols-3 max-[600px]:grid-cols-1 place-items-center max-[992px]:gap-5 max-[768px]:gap-10">
+        <div class="text-center flex justify-end items-center w-full max-[600px]:hidden">
+          <h3 class="happyHalloween dont-miss font-medium text-black text-[6rem] max-[768px]:text-[4rem] leading-[9rem] max-[768px]:leading-[7rem]">DO <br> N'T</h3>
+        </div>
+        <div class="flex place-content-center gap-1 max-[600px]:mt-5">
+          <div class="relative">
+            <div class="text-center flex justify-center items-center text-[10rem] max-[768px]:text-[8rem] max-[600px]:text-[7rem] max-[480px]:text-[5rem] text-white absolute z-[3] left-[12%] bottom-[0.5%]">
+              <div class="seconds-puluhan"></div>
+            </div>
+            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-[#3A8EF6] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)]"></div>
+            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-gradient-to-br from-[#3A8EF6] to-[#6F3AFA]"></div>
+          </div>
+          <div class="relative">
+            <div class="text-center flex justify-center items-center text-[10rem] max-[768px]:text-[8rem] max-[600px]:text-[7rem] max-[480px]:text-[5rem] text-white absolute z-[3] left-[12%] bottom-[0.5%]">
+              <div class="seconds-satuan"></div>
+            </div>
+            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-[#3A8EF6] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)]"></div>
+            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-gradient-to-br from-[#3A8EF6] to-[#6F3AFA]"></div>
+          </div>
+        </div>
+        <div class="text-center flex justify-start items-center w-full max-[600px]:hidden">
+          <h3 class="happyHalloween dont-miss font-medium text-black text-[6rem] max-[768px]:text-[4rem] leading-[9rem] max-[768px]:leading-[7rem]">MISS <br> IT!</h3>
+        </div>
+      </div>
+      <div class="relative w-full text-center pl-[1%] -mt-5 max-[768px]:-mt-3 max-[600px]:mt-2">
+        <p class="text-[2rem] max-[768px]:text-[1.5rem] max-[600px]:text-[1.25rem] max-[480px]:text-[1rem] tracking-[0.7rem] max-[480px]:tracking-[0.5rem]">SECONDS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Affiliate Link -->
+  <section id="affiiliate" class="bg-[#EAEEFC] border-gradient-1 border-gradient-2 py-16 max-[992px]:py-12 max-[768px]:py-10 max-[480px]:py-5">
+    <div class="text-center">
+      <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-">Affiliate Link</h1>
+      <h3 class="font-medium text-[1.25rem] max-[992px]:text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.8rem]">Get Your Affiliate Link Now<h3>
+    </div>
+    <div class="flex justify-center items-center mt-12">
+      <form class="form-affiliate flex flex-col gap-5">
+        <input class="w-[50rem] border-gradient-1-2 border-gradient-2-2 rounded-[30px] px-4 py-2 focus:outline-[#3A8EF6]" type="text" name="name" id="name" placeholder="Your name" required>
+        <input class="w-[50rem] border-gradient-1-2 border-gradient-2-2 rounded-[30px] px-4 py-2 focus:outline-[#3A8EF6]" type="email" name="email" id="email" placeholder="Your email" required>
+        <div class="w-full mt-2 max-[992px]:mt-6 max-[768px]:mt-3 max-[480px]:mt-2">
+          <button class="float-end bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] text-white text-[1.15rem] px-8 py-2 rounded-[20px] hover:scale-105 duration-200">Get Affiliate Link</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="relative flex flex-col place-items-center bg-[#EAEEFC] bg-cover bg-no-repeat bg-fixed bg-center py-16 max-[768px]:py-12 max-[480px]:py-8">
+    <img class="absolute w-[35%] top-[10%] -left-[15%]" src="./img/strawberries.png" alt="">
+    <img class="absolute w-[35%] top-[60%] -right-[10%]" src="./img/oranges.png" alt="">
+    <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-medium">Introducing</h1>
+    <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-medium text-[#3A8EF6]">NutriHealth</h1>
+    <div class="text-center w-[50%] max-[992px]:w-[85%] max-[768px]:w-[90%] max-[480px]:w-[95%] mt-10 max-[768px]:mt-5">
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem] mb-5">Discover the joy of healthy eating with [NutriHealth], the ultimate collection of nutritious recipes designed to support and manage various health conditions. Say goodbye to bland, restrictive diets and hello to flavorful, wholesome meals that cater to your unique dietary needs. From managing diabetes and heart disease to promoting overall wellness, our carefully curated recipes transform your kitchen into a haven of health and taste.</h3>
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">[NutriHealth] is a fresh, innovative product created by a team of expert nutritionists and culinary artists with over 15 years of experience in crafting health-centric digital products. Each recipe is meticulously developed to ensure it’s not only delicious but also packed with the nutrients your body needs to thrive.</h3>
+    </div>
+    <div class="flex justify-center items-center my-12 max-[992px]:my-8 max-[480px]:my-4">
+      <img class="w-[65%] max-[992px]:w-[80%] max-[480px]:w-[90%]" src="./img/BoxMockup-phone.png" alt="mockup">
+    </div>
+    <div class="text-center w-[50%] max-[992px]:w-[85%] max-[768px]:w-[90%] max-[480px]:w-[95%] my-12 max-[768px]:my-10">
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">Get ready to revolutionize your approach to health with [NutriHealth]: Healthy Recipes for Various Disease! Our collection of recipes is designed not only to delight your taste buds but also to support and manage a wide range of health conditions. With [NutriHealth], you'll empower and educate your audience, offering meals crafted to address specific dietary needs while still being irresistibly delicious.<h3>
+    </div>
+    <div class="px-28 mb-10">
+      <h3 class="text-center text-[2.5rem] max-[992px]:text-[2rem] max-[768px]:text-[1.5rem] max-[480px]:text-[1.1rem] leading-[2.75rem] max-[768px]:leading-[2rem] max-[480px]:leading-[1.5rem] font-semibold">Here are some specific examples <br> of how can be used by different professions:</h3>
+    </div>
+    <div class="flex flex-col justify-center items-center gap-5 px-64 max-[768px]:px-10 max-[480px]:px-1">
+      <div class="grid grid-cols-2 max-[992px]:grid-cols-1 max-[768px]:grid-cols-1 max-[480px]:grid-cols-1 gap-x-10 gap-y-5">
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/nutritionist.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Dietitians and Nutritionists</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">By incorporating these recipes into their practice, dietitians can help clients better manage their conditions through proper nutrition, ensuring they receive balanced, tasty meals that adhere to their dietary requirements.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/chef.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Chefs and Culinary Professional</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">By demonstrating these recipes, chefs can educate their students on the importance of nutrition and how to create flavorful dishes that promote health and well-being, expanding their culinary skills and knowledge.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/healtheducoator.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Health Educators</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">Using these recipes, health educators can offer hands-on learning experiences, empowering individuals to make healthier food choices and understand the impact of diet on their overall health.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/trainer.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Personal Trainers</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">The recipes can be shared during training sessions or included in customized meal plans, helping clients achieve optimal results by pairing physical activity with healthy eating habits.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/coach.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Health Coaches</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">By integrating these recipes into their coaching programs, health coaches can provide clients with practical tools and inspiration to make sustainable dietary changes that enhance their overall well-being.</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
+          <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/influencer.png" alt="">
+          <div class="text-white">
+            <h3 class="font-bold text-[16px] max-[768px]:leading-[1.15rem]">Bloggers and Social Media Influencers</h3>
+            <p class="text-[12px] max-[768px]:leading-[1rem] mt-1">By showcasing these recipes, influencers can attract a health-conscious audience, providing valuable content that inspires followers to try new, healthy dishes and adopt better eating habits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="./script.js"></script>
 </body>
