@@ -149,6 +149,20 @@
     background-size: cover;
 }
 
+.bg-3 {
+    background-color: #f3f3fd;
+    background-image: url('../img/bg-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-4 {
+    background-color: #FFFFFF;
+    background-image: url('../img/bg-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-video {
     position: relative;
     z-index: 1;
@@ -221,7 +235,6 @@ html {
 .char {
     opacity: 0;
     animation: charFadeIn 0.5s forwards;
-    /* border-right: .15em solid #1678F2; */
 }
 
 @keyframes charFadeIn {
@@ -230,19 +243,6 @@ html {
     }
 }
 
-/* @keyframes blink {
-
-    0%,
-    50%,
-    100% {
-        border-color: transparent;
-    }
-
-    25%,
-    75% {
-        border-color: #1678F2;
-    }
-} */
 
 .char:nth-child(1) {
     animation-delay: 0.5s;

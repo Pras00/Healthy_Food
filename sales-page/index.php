@@ -226,7 +226,7 @@
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-2 gap-8 mt-12 mx-3 md:mx-8 lg:mx-16 w-full md:w-[70%]">
-                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
                     <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
                         An Extensive Culinary Library for Targeted Wellness
                     </h3>
@@ -234,15 +234,15 @@
                         Our comprehensive e-recipe book, "E-Recipe", provides an extensive culinary library tailored to address a wide range of health conditions. With over 150+ carefully curated recipes, you'll find the perfect dishes to support your specific needs, whether it's managing diabetes, heart health, or digestive issues.
                     </p>
                 </div>
-                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
                     <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
-                         Easy-to-Follow Instructions for Effortless Cooking
+                        Easy-to-Follow Instructions for Effortless Cooking
                     </h3>
                     <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
                         Say goodbye to complex cooking manuals and confusing instructions. Our e-recipe book features clear, easy-to-follow recipes that anyone can master, regardless of their culinary experience. With step-by-step guidance, helpful tips, and vibrant images, you can effortlessly create delicious and nutritious meals in no time.
                     </p>
                 </div>
-                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
                     <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
                         Recipe Sharing and Community Engagement
                     </h3>
@@ -250,7 +250,7 @@
                         Share your culinary creations and connect with like-minded individuals in our vibrant online community. Share your favorite recipes, exchange tips, and find inspiration from others who are passionate about healthy eating. Our platform fosters a supportive environment where you can learn, grow, and achieve your wellness goals together.
                     </p>
                 </div>
-                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
                     <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
                         Targeted Culinary Solutions for a Range of Health Concerns
                     </h3>
@@ -273,31 +273,6 @@
             <path fill="#F3F3FD" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,240C384,235,480,149,576,149.3C672,149,768,235,864,261.3C960,288,1056,256,1152,202.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg> -->
 
-        <!-- <div class="bg-[#FC9850] py-1">
-            <div class="flex flex-row">
-                <div class="flex flex-row items-center justify-center me-5 md:me-0">
-                    <img class="w-[15%] md:w-[10%] me-1 md:me-3" src="img/icon.png" alt="">
-                    <h1 class="halloween font-2-5rem text-[#312E35]">SPOOKIDS!</h1>
-                </div>
-                <div class="flex flex-row items-center justify-center me-5 md:me-0">
-                    <img class="w-[15%] md:w-[10%] me-1 md:me-3" src="img/icon.png" alt="">
-                    <h1 class="halloween font-2-5rem text-[#312E35]">SPOOKIDS!</h1>
-                </div>
-                <div class="hidden md:flex flex-row items-center justify-center me-5 md:me-0">
-                    <img class="w-[15%] md:w-[10%] me-1 md:me-3" src="img/icon.png" alt="">
-                    <h1 class="halloween font-2-5rem text-[#312E35]">SPOOKIDS!</h1>
-                </div>
-                <div class="hidden md:flex flex-row items-center justify-center me-5 md:me-0">
-                    <img class="w-[15%] md:w-[10%] me-1 md:me-3" src="img/icon.png" alt="">
-                    <h1 class="halloween font-2-5rem text-[#312E35]">SPOOKIDS!</h1>
-                </div>
-                <div class="hidden md:flex flex-row items-center justify-center me-5 md:me-0">
-                    <img class="w-[15%] md:w-[10%] me-1 md:me-3" src="img/icon.png" alt="">
-                    <h1 class="halloween font-2-5rem text-[#312E35]">SPOOKIDS!</h1>
-                </div>
-            </div>
-        </div> -->
-
         <div class="bg-transparent container-lg">
             <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-16 px-3 md:px-0">
                 <div class="w-full md:w-[80%] flex flex-col justify-center items-center">
@@ -305,25 +280,22 @@
                         SEE WHAT'S INSIDE
                     </h3>
 
-                    <h1 class="satoshi font-bold font-2-5rem leading-tight my-8 text-[#FFFFFF]">
-                        Every Spooktacular Story Is Ready To Go! Unlike Other Products, Spookids Provides Unique, 100% In-House Crafted Short-Form Horror Tales For Kids.
+                    <h1 class="satoshi font-bold font-2-5rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize">
+                        Every Delicious & Healthy Recipe Awaits! Unlike other recipe collections, ours offers 150+ exclusive, chef-crafted creations designed to empower your wellness journey
                     </h1>
 
-                    <p class="satoshi font-1-2rem text-[#FFFFFF]">
-                        All Stories, Scripts, Animations, Voiceovers, And Graphics Are Created By Our Talented Team, Granting You Full Private Label Rights. This Means You Can Use These Chilling Tales As Your Own And Keep 100% Of The Profits!
-                    </p>
-
                     <a href="#produk" class="w-[10%] md:w-[5%] mt-5 md:mt-12">
-                        <img src="img/arrow2.png" alt="">
+                        <img src="img/arrow.png" alt="">
                     </a>
 
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="produk" class="bg-[#FFFFFF] container-lg">
-            <div class="flex flex-row items-center justify-center py-8 md:py-16 px-5 md:px-16">
-                <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8">
+    <div id="produk" class="bg-[#FFFFFF] container-lg">
+        <div class="flex flex-row items-center justify-center py-8 md:py-16 px-5 md:px-16">
+            <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8">
                     <?php
                     include 'produk.php';
 
@@ -355,101 +327,101 @@
                     }
                     ?>
                 </div> -->
+        </div>
+    </div>
+
+    <div class="bg-1 container-lg">
+        <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
+            <h1 class="satoshi font-bold capitalize font-2-5rem text-[#FFFFFF] w-full md:w-[70%] mb-0 md:mb-12">
+                Unlock a world of delicious recipes designed to support your unique health goals
+            </h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 my-12 mx-3 md:mx-8 lg:mx-16">
+                <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
+                    <img class="w-[60%] md:w-[70%] mb-8" src="img/Healthy habit-bro.png" alt="">
+                    <p class="satoshi font-1-2rem font-semibold">
+                        Health-Conscious Individuals
+                    </p>
+                </div>
+                <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
+                    <img class="w-[60%] md:w-[70%] mb-8" src="img/Medical care-bro.png" alt="">
+                    <p class="satoshi font-1-2rem font-semibold">
+                        Individuals with Specific Health Conditions
+                    </p>
+                </div>
+                <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
+                    <img class="w-[60%] md:w-[70%] mb-8" src="img/Medical prescription-bro.png" alt="">
+                    <p class="satoshi font-1-2rem font-semibold">
+                        Individuals Seeking Personalized Guidance
+                    </p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="bg-1 container-lg">
-            <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-                <h1 class="satoshi font-bold capitalize font-2-5rem text-[#FFFFFF] w-full md:w-[70%] mb-0 md:mb-12">
-                    Unlock a world of delicious recipes designed to support your unique health goals
-                </h1>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 my-12 mx-3 md:mx-8 lg:mx-16">
-                    <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
-                        <img class="w-[60%] md:w-[70%] mb-8" src="https://placehold.co/200x200/png" alt="">
-                        <p class="satoshi font-1-2rem font-semibold">
-                            Health-Conscious Individuals
-                        </p>
+    <div class="bg-3 container-lg">
+        <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
+            <h1 class="satoshi font-bold font-2-5rem text-[#312E35] capitalize w-full md:w-[70%]">
+                Discover a world of culinary possibilities and support your health goals with our thoughtfully e-recipe book, designed to empower you on your wellness journey
+            </h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 grid-rows-4 gap-8 my-16 text-[#121212] w-[100%] md:w-[60%]">
+                <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
+                    <div class="flex flex-col md:flex-row justify-center items-center">
+                        <img src="img/Recipe book-bro.png" alt="" class="w-[155px] md:w-[200px] mb-5 md:mb-0">
+                        <div class="flex flex-col justify-center text-center md:text-start ms-0 md:ms-8">
+                            <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
+                                Targeted Wellness Solutions
+                            </h1>
+                            <h3 class="satoshi font-medium font-1rem capitalize">
+                                Our extensive recipe collection caters to a wide range of health conditions, from managing diabetes and heart health to addressing digestive issues and supporting weight management.
+                            </h3>
+                        </div>
                     </div>
-                    <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
-                        <img class="w-[60%] md:w-[70%] mb-8" src="https://placehold.co/200x200/png" alt="">
-                        <p class="satoshi font-1-2rem font-semibold">
-                            Individuals with Specific Health Conditions
-                        </p>
+                </div>
+                <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
+                    <div class="flex flex-col md:flex-row justify-center items-center">
+                        <div class="flex flex-col justify-center text-center md:text-start ms-0 md:me-8">
+                            <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
+                                Structured Wellness with Customizable Meal Plans
+                            </h1>
+                            <h3 class="satoshi font-medium font-1rem capitalize">
+                                Create personalized meal plans that fit your lifestyle and health goals, ensuring a balanced and nutritious approach to daily meals.
+                            </h3>
+                        </div>
+                        <img src="img/breakfast food-bro.png" alt="" class="w-[155px] md:w-[200px] mb-5 md:mb-0 order-first md:order-last">
                     </div>
-                    <div class="p-5 md:p-8 text-center text-[#FFFFFF] flex flex-col items-center border-gradient-2">
-                        <img class="w-[60%] md:w-[70%] mb-8" src="https://placehold.co/200x200/png" alt="">
-                        <p class="satoshi font-1-2rem font-semibold">
-                            Individuals Seeking Personalized Guidance
-                        </p>
+                </div>
+                <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
+                    <div class="flex flex-col md:flex-row justify-center items-center">
+                        <img src="img/female chef-bro.png" alt="" class="w-[155px] md:w-[200px] mb-5 md:mb-0">
+                        <div class="flex flex-col justify-center text-center md:text-start ms-0 md:ms-8">
+                            <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
+                                Discover the Joy of Cooking and Eating Healthy
+                            </h1>
+                            <h3 class="satoshi font-medium font-1rem capitalize">
+                                Our recipes are designed to make healthy cooking enjoyable and accessible, transforming mealtimes into a culinary adventure.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
+                    <div class="flex flex-col md:flex-row justify-center items-center">
+                        <div class="flex flex-col justify-center text-center md:text-start ms-0 md:me-8">
+                            <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
+                                Embrace a Healthier Lifestyle Without Sacrificing Taste
+                            </h1>
+                            <h3 class="satoshi font-medium font-1rem capitalize">
+                                Indulge in delicious flavors while making conscious choices that support your health goals.
+                            </h3>
+                        </div>
+                        <img src="img/Healthy lifestyle-bro.png" alt="" class="w-[155px] md:w-[200px] mb-5 md:mb-0 order-first md:order-last">
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="bg-[#F3F3FD] container-lg">
-            <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-                <h1 class="satoshi font-bold font-2-5rem text-[#312E35] capitalize w-full md:w-[70%]">
-                    Discover a world of culinary possibilities and support your health goals with our thoughtfully e-recipe book, designed to empower you on your wellness journey
-                </h1>
-
-                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 grid-rows-4 gap-5 my-16 text-[#121212] w-[100%] md:w-[60%]">
-                    <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
-                        <div class="flex flex-col md:flex-row justify-center items-center">
-                            <img src="https://placehold.co/200x200/png" alt="" class="w-[155px] md:w-[175px] mb-5 md:mb-0">
-                            <div class="flex flex-col justify-center text-center md:text-start ms-0 md:ms-8">
-                                <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
-                                    Targeted Wellness Solutions
-                                </h1>
-                                <h3 class="satoshi font-medium font-1rem capitalize">
-                                    Our extensive recipe collection caters to a wide range of health conditions, from managing diabetes and heart health to addressing digestive issues and supporting weight management.
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
-                        <div class="flex flex-col md:flex-row justify-center items-center">
-                            <div class="flex flex-col justify-center text-center md:text-start ms-0 md:me-8">
-                                <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
-                                    Targeted Wellness Solutions
-                                </h1>
-                                <h3 class="satoshi font-medium font-1rem capitalize">
-                                    Our extensive recipe collection caters to a wide range of health conditions, from managing diabetes and heart health to addressing digestive issues and supporting weight management.
-                                </h3>
-                            </div>
-                            <img src="https://placehold.co/200x200/png" alt="" class="w-[155px] md:w-[175px] mb-5 md:mb-0 order-first md:order-last">
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
-                        <div class="flex flex-col md:flex-row justify-center items-center">
-                            <img src="https://placehold.co/200x200/png" alt="" class="w-[155px] md:w-[175px] mb-5 md:mb-0">
-                            <div class="flex flex-col justify-center text-center md:text-start ms-0 md:ms-8">
-                                <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
-                                    Targeted Wellness Solutions
-                                </h1>
-                                <h3 class="satoshi font-medium font-1rem capitalize">
-                                    Our extensive recipe collection caters to a wide range of health conditions, from managing diabetes and heart health to addressing digestive issues and supporting weight management.
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] border-gradient-3 rounded-lg shadow-lg px-3 md:px-6 lg:px-8 py-8 w-full">
-                        <div class="flex flex-col md:flex-row justify-center items-center">
-                            <div class="flex flex-col justify-center text-center md:text-start ms-0 md:me-8">
-                                <h1 class="satoshi font-bold font-1-5rem mb-5 text-[#1678F2]">
-                                    Targeted Wellness Solutions
-                                </h1>
-                                <h3 class="satoshi font-medium font-1rem capitalize">
-                                    Our extensive recipe collection caters to a wide range of health conditions, from managing diabetes and heart health to addressing digestive issues and supporting weight management.
-                                </h3>
-                            </div>
-                            <img src="https://placehold.co/200x200/png" alt="" class="w-[155px] md:w-[175px] mb-5 md:mb-0 order-first md:order-last">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 
     <div class="container-lg bg-[#F3F3FD] border-gradient-1">
@@ -564,7 +536,7 @@
                         STEP #1 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
-                        <img class="w-[60%] md:w-[60%]" src="https://placehold.co/200x300/png" alt="">
+                        <img class="w-[60%] md:w-[60%]" src="img/Download-amico.png" alt="">
                     </div>
                     <h3 class="satoshi font-1-2rem mt-3 text-[#FFFFFF]">
                         Download our Ready-to-Sell Market Product
@@ -575,7 +547,7 @@
                         STEP #2 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
-                        <img class="w-[60%] md:w-[60%]" src="https://placehold.co/200x300/png" alt="">
+                        <img class="w-[60%] md:w-[60%]" src="img/Notebook-cuate.png" alt="">
                     </div>
                     <h3 class="satoshi font-1-2rem mt-3 text-[#FFFFFF]">
                         Put Your Name on it
@@ -586,7 +558,7 @@
                         STEP #3 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
-                        <img class="w-[60%] md:w-[60%]" src="https://placehold.co/200x300/png" alt="">
+                        <img class="w-[60%] md:w-[60%]" src="img/Upload-amico.png" alt="">
                     </div>
                     <h3 class="satoshi font-1-2rem mt-3 text-[#FFFFFF]">
                         Upload it to Your Server
@@ -597,7 +569,7 @@
                         STEP #4 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
-                        <img class="w-[60%] md:w-[60%]" src="https://placehold.co/200x300/png" alt="">
+                        <img class="w-[60%] md:w-[60%]" src="img/Marketing-amico.png" alt="">
                     </div>
                     <h3 class="satoshi font-1-2rem mt-3 text-[#FFFFFF]">
                         Instantly Make Sales and Keep Entire Profits With for Yourself!!!
@@ -694,7 +666,7 @@
         <div class="flex flex-col items-center justify-center text-[#F3E9D3] text-center py-16 px-5 md:px-0">
             <h1 class="satoshi font-bold text-[#121212] text-center font-3rem w-full md:w-[70%] leading-tight mb-12">
                 Don't Wait Any Longer... <br>
-                Grab Full Access To <span class="text-[#1678F2]">[BRAND]</span> Now ! <br> With <span class="text-[#1678F2]">50% Discount</span>
+                Grab Full Access To <span class="text-[#1678F2]">[BRAND]</span> Now ! <br> With <span class="text-[#1678F2]">50% Discount</span>
             </h1>
 
             <img class="p-5 w-[100%] md:w-[90%]" src="https://placehold.co/400x200/png" alt="">
@@ -702,7 +674,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%] my-16">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
                     <h1 class="bg-card rounded-2xl satoshi font-bold text-[#FFFFFF] font-2rem my-3 py-3">
-                        Personal License​
+                        Personal License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#121212]">
                         <i class="fas fa-check-circle me-5 text-[#1678F2]"></i>
@@ -733,7 +705,7 @@
                     </div>
                     <div class="flex flex-col items-center mt-5">
                         <button type="button" class="text-white w-full bg-slate-600 hover:bg-bg-yellow-600 montserrat-bold font-1-5rem rounded-2xl py-5 dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mb-5">
-                            <i class="fas fa-Ncart-arrow-down me-5"></i>
+                            <i class="fas fa-cart-arrow-down me-5"></i>
                             Buy Now
                         </button>
                         <img class="w-[80%] md:w-[90%]" src="img/guarantee.png" alt="">
@@ -741,7 +713,7 @@
                 </div>
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
                     <h1 class="bg-[#7C5A90] rounded-2xl satoshi font-bold text-[#FFFFFF] font-2rem my-3 py-3">
-                        Reseller Right License​
+                        Reseller Right License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#312E35]">
                         <i class="fas fa-check-circle me-5 text-[#1678F2]"></i>
@@ -809,7 +781,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-5 mt-16 w-[90%] md:w-[80%]">
 
                 <?php foreach ($firstHalf as $faq) : ?>
-                    <details class="group py-1 font-1rem title-faq satoshi font-semibold">
+                    <details class="group py-1 font-1rem title-faq satoshi font-semibold capitalize">
                         <summary class="flex cursor-pointer flex-row items-center justify-between text-[#121212] bg-[#FFFFFF] rounded-t-2xl px-8 py-3">
                             <?php echo $faq["question"]; ?>
                             <svg class="h-6 w-6 rotate-0 transform text-[#121212] group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -821,7 +793,7 @@
                 <?php endforeach; ?>
 
                 <?php foreach ($secondHalf as $faq) : ?>
-                    <details class="group py-1 font-1rem title-faq satoshi font-semibold">
+                    <details class="group py-1 font-1rem title-faq satoshi font-semibold capitalize">
                         <summary class="flex cursor-pointer flex-row items-center justify-between text-[#121212] bg-[#FFFFFF] rounded-t-2xl px-8 py-3">
                             <?php echo $faq["question"]; ?>
                             <svg class="h-6 w-6 rotate-0 transform text-[#121212] group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
