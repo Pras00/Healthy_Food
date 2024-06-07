@@ -62,6 +62,11 @@
   border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
   border-image-slice: 1;
 }
+.border-gradient-2-2-1 {
+  border-bottom: 3px solid;
+  border-image: radial-gradient(circle, rgba(111, 58, 250, 1) 25%, rgba(243, 243, 253, 1) 100%);
+  border-image-slice: 1;
+}
 .border-gradient-3-2 {
   border-right: 3px solid;
   border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
