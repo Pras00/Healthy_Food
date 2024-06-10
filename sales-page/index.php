@@ -35,7 +35,7 @@
                     Nourish Your Body, Heal Your Mind: Experience the power of food therapy with our curated recipe collection
                 </h3>
 
-                <h1 class="satoshi font-bold text-[#121212] text-center leading-tight font-3-5rem mt-16 md:w-[70%] capitalize">
+                <h1 class="spicy-rice text-[#121212] text-center leading-tight font-3-5rem mt-16 md:w-[70%] capitalize">
                     <span class="text-[#1678F2]">
                         <span class="char">E</span>
                         <span class="char">-</span>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="bg-[#F3F3FD] border-gradient-1 flex flex-col items-center justify-center text-center p-3 md:p-0 text-[#121212]">
-            <h1 class="satoshi font-bold font-2-5rem mt-12">
+            <h1 class="spicy-rice font-3rem mt-12">
                 Exclusive Recipe Vault: Unlock 150+ Delicious & Healthy Dishes!
             </h1>
 
@@ -127,34 +127,34 @@
         </div>
     </div>
 
-    <div class="bg-1 container-lg">
+    <div class="bg-5 container-lg">
         <div class="flex flex-col items-center justify-center text-center px-5 md:px-0">
-            <h1 class="satoshi font-bold font-2-5rem mt-16 text-[#FFFFFF] leading-tight w-[95%] md:w-[70%]">
+            <h1 class="spicy-rice font-3rem mt-16 text-[#FFFFFF] leading-tight tracking-wider w-[95%] md:w-[70%]">
                 Do You Find It Difficult To Find Delicious And Easy-To-Follow Recipes That Cater To Your Specific Health Needs?
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 md:gap-12 my-8 md:my-12 mx-3 md:mx-8 lg:mx-16 w-full md:w-[90%]">
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Restricted and Uninspired by Bland Diets
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Many people with specific health conditions feel restricted by bland and unappetizing diets. They crave delicious and satisfying meals that don't compromise their health goals. Your e-recipe book offers a solution with a variety of flavorful and healthy recipes designed for their specific needs.
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Juggling Busy Lives with Confusing Nutritional Information
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         People with busy lives often struggle to find the time or energy to cook healthy meals. Additionally, deciphering conflicting nutritional information can be overwhelming. Your e-recipe book provides clear guidance with easy-to-follow recipes that fit into their busy schedules and cater to their specific health conditions.
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Lost and Uncertain About Managing Health Through Food
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Many people with specific health conditions feel unsure about which foods can help manage their symptoms. Your e-recipe book offers a solution by providing scientifically-backed recipes developed by experts (mention nutritionists or chefs if applicable). These recipes empower individuals to take control of their health through informed dietary choices.
                     </p>
                 </div>
@@ -162,18 +162,18 @@
 
             <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 w-full md:w-3/5 mb-16">
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Restricted and Uninspired by Bland Diets
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Many people with specific health conditions feel restricted by bland and unappetizing diets. They crave delicious and satisfying meals that don't compromise their health goals. Your e-recipe book offers a solution with a variety of flavorful and healthy recipes designed for their specific needs.
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Restricted and Uninspired by Bland Diets
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Many people with specific health conditions feel restricted by bland and unappetizing diets. They crave delicious and satisfying meals that don't compromise their health goals. Your e-recipe book offers a solution with a variety of flavorful and healthy recipes designed for their specific needs.
                     </p>
                 </div>
@@ -187,7 +187,7 @@
             <h3 class="satoshi font-1-5rem">
                 Introducing...
             </h3>
-            <h1 class="satoshi font-bold font-3-5rem">
+            <h1 class="spicy-rice font-3-5rem">
                 [ BRAND ]
             </h1>
             <p class="satoshi font-1-5rem italic mt-8 md:mt-12">
@@ -200,7 +200,7 @@
                 Your journey to a healthier you starts with one simple step: embracing the power of food. Our e-recipe book, empowers you to take control of your health, providing you with delicious, easy-to-follow recipes that promote well-being without compromising taste.
             </p>
 
-            <p class="satoshi font-bold font-3rem mt-12">
+            <p class="spicy-rice font-3rem mt-12">
                 Come With Reseller Right
             </p>
 
@@ -221,40 +221,40 @@
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center pt-8 md:pt-16 px-5 md:px-0">
-            <h1 class="satoshi font-bold font-2-5rem text-[#FFFFFF] w-full md:w-[60%] mb-8 md:mb-16 pt-8 mb:pt-0 capitalize leading-tight">
+            <h1 class="spicy-rice font-3rem text-[#FFFFFF] w-full md:w-[75%] mb-8 md:mb-16 pt-8 mb:pt-0 capitalize leading-tight tracking-wider">
                 Embark on a culinary journey to wellness with our extensive collection of over 150+ recipes tailored to your specific health needs.
             </h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-2 gap-8 mt-12 mx-3 md:mx-8 lg:mx-16 w-full md:w-[70%]">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-2 gap-8 mt-8 mx-3 md:mx-8 lg:mx-16 w-full md:w-[70%]">
                 <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         An Extensive Culinary Library for Targeted Wellness
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Our comprehensive e-recipe book, "E-Recipe", provides an extensive culinary library tailored to address a wide range of health conditions. With over 150+ carefully curated recipes, you'll find the perfect dishes to support your specific needs, whether it's managing diabetes, heart health, or digestive issues.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Easy-to-Follow Instructions for Effortless Cooking
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Say goodbye to complex cooking manuals and confusing instructions. Our e-recipe book features clear, easy-to-follow recipes that anyone can master, regardless of their culinary experience. With step-by-step guidance, helpful tips, and vibrant images, you can effortlessly create delicious and nutritious meals in no time.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Recipe Sharing and Community Engagement
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Share your culinary creations and connect with like-minded individuals in our vibrant online community. Share your favorite recipes, exchange tips, and find inspiration from others who are passionate about healthy eating. Our platform fosters a supportive environment where you can learn, grow, and achieve your wellness goals together.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212]">
-                    <h3 class="manrope-bold rounded-full halloween font-1-2rem mb-8">
+                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Targeted Culinary Solutions for a Range of Health Concerns
                     </h3>
-                    <p class="manrope-medium font-1rem text-justify text-[#696969] capitalize">
+                    <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
                         Our comprehensive e-recipe book,”E-Recipe" provides a culinary haven for individuals managing various health conditions. With over 150+ carefully curated recipes, you'll discover delectable dishes designed to support your specific needs, whether it's managing diabetes, heart health, or digestive issues.
                     </p>
                 </div>
@@ -275,16 +275,16 @@
 
         <div class="bg-transparent container-lg">
             <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-16 px-3 md:px-0">
-                <div class="w-full md:w-[80%] flex flex-col justify-center items-center">
-                    <h3 class="bg-[#FFFFFF] text-[#121212] rounded-full py-2 satoshi font-bold font-1-2rem w-full md:w-[40%]">
+                <div class="flex flex-col justify-center items-center">
+                    <h3 class="bg-[#FFFFFF] text-[#121212] rounded-full py-2 satoshi font-bold font-1-2rem w-full md:w-[30%]">
                         SEE WHAT'S INSIDE
                     </h3>
 
-                    <h1 class="satoshi font-bold font-2-5rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize">
+                    <h1 class="spicy-rice font-3rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize tracking-wider w-full md:w-[90%]">
                         Every Delicious & Healthy Recipe Awaits! Unlike other recipe collections, ours offers 150+ exclusive, chef-crafted creations designed to empower your wellness journey
                     </h1>
 
-                    <a href="#produk" class="w-[10%] md:w-[5%] mt-5 md:mt-12">
+                    <a href="#produk" class="w-[10%] md:w-[3%] mt-5 md:mt-12">
                         <img src="img/arrow.png" alt="">
                     </a>
 
@@ -332,7 +332,7 @@
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="satoshi font-bold capitalize font-2-5rem text-[#FFFFFF] w-full md:w-[70%] mb-0 md:mb-12">
+            <h1 class="spicy-rice capitalize font-3rem text-[#FFFFFF] w-full md:w-[90%] mb-0 md:mb-12 tracking-wider leading-tight">
                 Unlock a world of delicious recipes designed to support your unique health goals
             </h1>
 
@@ -362,7 +362,7 @@
 
     <div class="bg-3 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="satoshi font-bold font-2-5rem text-[#312E35] capitalize w-full md:w-[70%]">
+            <h1 class="spicy-rice font-3rem text-[#121212] capitalize w-full md:w-[85%] tracking-wider leading-tight">
                 Discover a world of culinary possibilities and support your health goals with our thoughtfully e-recipe book, designed to empower you on your wellness journey
             </h1>
 
@@ -425,8 +425,8 @@
     </div>
 
     <div class="container-lg bg-[#F3F3FD] border-gradient-1">
-        <div class="flex flex-col items-center justify-center py-8 md:py-16">
-            <h1 class="satoshi font-bold text-[#121212] text-center font-3rem w-full md:w-[80%] leading-tight">
+        <div class="flex flex-col items-center justify-center px-3 md:px-0 py-8 md:py-16">
+            <h1 class="spicy-rice text-[#121212] text-center font-3rem w-full md:w-[80%] leading-tight tracking-wider">
                 Grant Your Launch Discount for <span class="text-[#1678F2]">"[ BRAND ]"</span> Today! <br> For One Time Investment Only!
             </h1>
 
@@ -438,7 +438,7 @@
                 Your Early Bird Discount Valid for the Next
             </p>
 
-            <div class="countdown flex justify-center items-start gap-4 text-[#1678F2] satoshi font-bold">
+            <div class="countdown flex justify-center items-start gap-4 text-[#1678F2] spicy-rice">
                 <div class="flex flex-col justify-center items-center leading-tight">
                     <div class="days text-[5rem] font-medium"></div>
                     <p class="text-[2rem] text-[#121212]">Days</p>
@@ -454,7 +454,7 @@
                     <p class="text-[2rem] text-[#121212]">Minutes</p>
                 </div>
             </div>
-            <div class="flex flex-col justify-center items-center relative text-white my-8 satoshi font-bold">
+            <div class="flex flex-col justify-center items-center relative text-white my-8 spicy-rice">
                 <div class="flex justify-center items-center">
                     <div class="text-center flex justify-center items-center w-80 hidden md:flex">
                         <h3 class="text-[6rem] leading-[9rem] text-[#121212]">DO <br> N'T</h3>
@@ -479,7 +479,7 @@
                         <h3 class="text-[6rem] leading-[9rem] text-[#121212]">MISS <br> IT!</h3>
                     </div>
                 </div>
-                <div class="text-center flex justify-center items-center text-[2rem] text-[#121212] absolute top-[256px] left-[335px] tracking-[1rem] hidden md:flex">
+                <div class="text-center flex justify-center items-center text-[2rem] text-[#121212] absolute top-[256px] left-[335px] tracking-[1rem] hidden md:flex mt-8">
                     <p>SECONDS</p>
                 </div>
             </div>
@@ -491,7 +491,7 @@
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="satoshi font-bold font-2-5rem text-[#FFFFFF] w-full md:w-[50%]">
+            <h1 class="spicy-rice font-3rem text-[#FFFFFF] w-full md:w-[60%] leading-tight tracking-wider">
                 You Are Able to Get <span class="text-[#FFFFFF]">Reseller Rights</span> To Make BIG Money... FASTER... EASIER!!
             </h1>
 
@@ -526,13 +526,13 @@
 
     <div class="bg-[#F3F3FD] container-lg">
         <div class="flex flex-col items-center justify-center text-center py-12 px-8 md:px-12">
-            <h1 class="satoshi font-bold font-2-5rem text-[#121212] w-full md:w-[70%]">
+            <h1 class="spicy-rice font-3rem text-[#121212] w-full md:w-[80%] leading-tight tracking-wider">
                 This Money-Making Opportunity Will Sky-Rocket Your Profits In Just 4 Easy Steps…
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-1 gap-5 my-16 text-center">
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] satoshi font-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem">
+                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
                         STEP #1 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -543,7 +543,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] satoshi font-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem">
+                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
                         STEP #2 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -554,7 +554,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] satoshi font-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem">
+                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
                         STEP #3 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -565,7 +565,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] satoshi font-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem">
+                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
                         STEP #4 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -581,11 +581,11 @@
 
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-[#FFFFFF] text-center py-16 px-5 md:px-16">
-            <h1 class="satoshi font-bold font-2-5rem w-full md:w-[90%]">
+            <h1 class="spicy-rice font-3rem w-full tracking-wider">
                 How To Make Money With This
                 Advance Licensed Product…
             </h1>
-            <h3 class="satoshi font-1-5rem mt-5 w-full md:w-[50%]">
+            <h3 class="satoshi font-1-5rem mt-5 w-full md:w-[70%]">
                 <span class="montserrat-medium">The Package Holds Limitless Potential!!</span> - Use It With Complete Confidence To Gain Insane Profits For Your Own
             </h3>
 
@@ -655,7 +655,7 @@
                     </h3>
                 </div>
             </div>
-            <h1 class="satoshi font-1-5rem">
+            <h1 class="satoshi font-bold font-1-5rem">
                 And A Lot More..!! <br>
                 So Many Possibility And Place You Can Use To Make Money With This Product
             </h1>
@@ -664,7 +664,7 @@
 
     <div id="cta1" class="container-lg bg-[#F3F3FD]">
         <div class="flex flex-col items-center justify-center text-[#F3E9D3] text-center py-16 px-5 md:px-0">
-            <h1 class="satoshi font-bold text-[#121212] text-center font-3rem w-full md:w-[70%] leading-tight mb-12">
+            <h1 class="spicy-rice text-[#121212] text-center font-3rem w-full md:w-[70%] leading-tight tracking-wider mb-12">
                 Don't Wait Any Longer... <br>
                 Grab Full Access To <span class="text-[#1678F2]">[BRAND]</span> Now ! <br> With <span class="text-[#1678F2]">50% Discount</span>
             </h1>
@@ -673,7 +673,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%] my-16">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
-                    <h1 class="bg-card rounded-2xl satoshi font-bold text-[#FFFFFF] font-2rem my-3 py-3">
+                    <h1 class="bg-card rounded-2xl spicy-rice tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
                         Personal License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#121212]">
@@ -712,7 +712,7 @@
                     </div>
                 </div>
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
-                    <h1 class="bg-[#7C5A90] rounded-2xl satoshi font-bold text-[#FFFFFF] font-2rem my-3 py-3">
+                    <h1 class="bg-[#7C5A90] rounded-2xl spicy-rice tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
                         Reseller Right License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#312E35]">
@@ -752,7 +752,7 @@
                 </div>
             </div>
 
-            <h4 class="font-1-5rem satoshi font-semibold text-[#121212]">
+            <h4 class="font-1-5rem satoshi font-bold text-[#121212]">
                 You Must HURRY..!!<br>
                 The <span class="text-[#1678F2]">50% Discount</span> Only Available for <span class="text-[#1678F2]">5 Days</span> During The Launch Event! <br>
                 After 5 Days... Discount Will Be <span class="text-[#1678F2]">REMOVED!!</span>
@@ -763,13 +763,13 @@
 
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-center py-16">
-            <h1 class="satoshi font-bold font-3rem text-[#1678F2] text-stroke">
+            <h1 class="spicy-rice font-3rem text-[#1678F2] text-stroke">
                 F . A . Q
             </h1>
-            <h2 class="satoshi font-bold font-2-5rem">
-                <span class="satoshi text-[#FFFFFF]">Frequently</span>
-                <span class="satoshi text-[#FFFFFF]">Asked</span>
-                <span class="satoshi text-[#FFFFFF]">Questions</span>
+            <h2 class="spicy-rice tracking-widest font-2-5rem">
+                <span class="text-[#FFFFFF]">Frequently</span>
+                <span class="text-[#FFFFFF]">Asked</span>
+                <span class="text-[#FFFFFF]">Questions</span>
             </h2>
 
             <?php
