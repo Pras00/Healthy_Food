@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Downsell Page - E-Recipe</title>
+    <title>Downsell Page - FitMeal</title>
 </head>
 
 <body>
@@ -18,10 +18,10 @@
                 <div class="flex flex-col md:flex-row items-center justify-center">
                     <img class="w-[65%] md:w-[40%] mr-0 md:mr-8 mb-5 md:mb-0" src="img/healthy food.gif" alt="">
                     <div class="text-[#FFFFFF]">
-                        <h3 class="text-[#FFFFFF] spicy-rice tracking-wider font-3rem mb-8">
+                        <h3 class="text-[#FFFFFF] poppins-bold tracking-wider font-2-5rem mb-8">
                             Wait! One last Change..
                         </h3>
-                        <h5 class="satoshi font-bold font-1-2rem w-full md:w-[90%]">
+                        <h5 class="satoshi font-1-2rem w-full md:w-[90%]">
                             After This, You Won't See This Offer Again. So Read Every Word and Decide on This Page Carefully! <br><br>
                             Make Sure to Read Every Word Carefully as This Offer for Spookids Won't be Available Again After This.
                         </h5>
@@ -39,17 +39,17 @@
 
     <div id="intro" class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-center p-5 py-16 text-[#FFFFFF]">
-            <h1 class="spicy-rice font-3rem leading-tight tracking-wider w-full md:w-[80%]">
+            <h1 class="poppins-bold font-2-5rem leading-tight tracking-wider w-full md:w-[80%]">
                 Experience Culinary Mastery with Effortless Ease! Save $10 on Your Easy-to-Follow E-Recipe Collection!
             </h1>
             <h3 class="satoshi font-1-5rem my-16 w-full md:w-[90%] capitalize">
-                While Your Current [BRAND] Recipe Collection Offers Delicious Options, Unlock the Full Potential of Your Business with [BRAND] Pro!
+                While Your Current FitMeal Recipe Collection Offers Delicious Options, Unlock the Full Potential of Your Business with FitMeal Pro!
 
-                Upgrade to [BRAND] Pro and Gain a Commercial License for Unprecedented Creative Freedom and Earning Potential!
+                Upgrade to FitMeal Pro and Gain a Commercial License for Unprecedented Creative Freedom and Earning Potential!
 
                 Craft Bespoke Recipe Collections for Your Clients and Keep 100% of the Profits. </h3>
 
-            <img class="w-[100%] md:w-[80%] mb-8" src="https://placehold.co/400x200/png" alt="">
+            <img class="w-[100%] md:w-[80%] mb-8" src="img/Mockup.png" alt="">
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-2 gap-8 my-8 mx-3 md:mx-8 lg:mx-16 w-full md:w-[70%]">
                 <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
@@ -93,7 +93,7 @@
         <div class="flex flex-col items-center justify-center px-5 md:px-0 py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%]">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl h-full md:h-[75%]">
-                    <h1 class="bg-1 spicy-rice tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
+                    <h1 class="bg-1 poppins-bold tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
                         YOUR CURRENT PACKAGE
                     </h1>
 
@@ -109,7 +109,7 @@
                         <?php } ?>
 
                         <div class="flex flex-row items-center justify-center my-12">
-                            <h3 class="font-2rem spicy-rice ms-3">
+                            <h3 class="font-2rem poppins-bold ms-3">
                                 Total Value = <span class="text-[#FF0000]">$ 27.750</span>
                             </h3>
                         </div>
@@ -117,7 +117,7 @@
                 </div>
 
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl h-full">
-                    <h1 class="bg-[#7C5A90] spicy-rice tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
+                    <h1 class="bg-[#7C5A90] poppins-bold tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
                         NEW EXTENDED PACKAGE
                     </h1>
 
@@ -133,7 +133,7 @@
                         <?php } ?>
 
                         <div class="flex flex-row items-center justify-center my-12">
-                            <h3 class="font-2rem spicy-rice ms-3">
+                            <h3 class="font-2rem poppins-bold ms-3">
                                 Total Value = <span class="text-[#FF0000]">$ 27.750</span>
                             </h3>
                         </div>
@@ -145,8 +145,8 @@
 
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-center pt-16 px-5 md:px-0">
-            <h2 class="spicy-rice font-3rem w-full md:w-[70%] tracking-wider px-3 mb-8 md:mb-16 text-[#FFFFFF]">
-                Why Upgrade to [BRAND] Platinum Version?
+            <h2 class="poppins-bold font-2-5rem w-full md:w-[70%] tracking-wider px-3 mb-8 md:mb-16 text-[#FFFFFF]">
+                Why Upgrade to FitMeal Platinum Version?
             </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 w-full md:w-[90%]">
@@ -194,10 +194,10 @@
         <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-12 px-3 md:px-0">
             <div class="w-full md:w-[80%] flex flex-col justify-center items-center">
                 <h3 class="bg-[#FFFFFF] text-[#121212] rounded-full py-2 satoshi font-bold font-1-2rem w-full md:w-[40%]">
-                    SEE WHAT'S INSIDE [BRAND] PRO!
+                    SEE WHAT'S INSIDE FitMeal PRO!
                 </h3>
 
-                <h1 class="spicy-rice font-3rem leading-tight tracking-wider my-8 text-[#FFFFFF] px-8 md:px-0">
+                <h1 class="poppins-bold font-2-5rem leading-tight tracking-wider my-8 text-[#FFFFFF] px-8 md:px-0">
                     Explore Our Every Exclusive Recipe
                 </h1>
 
@@ -248,11 +248,11 @@
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center px-5 md:px-0">
             <div class="border-0 bg-4 rounded-2xl my-12 md:my-24 px-4 md:px-8 lg:px-12 py-8 md:py-16 w-full md:w-[50%] flex flex-col items-center justify-center text-center text-[#121212] drop-shadow-2xl">
-                <h3 class="spicy-rice font-3rem tracking-wider">
+                <h3 class="poppins-bold font-3rem tracking-wider">
                     LIMITED TIME OFFER!!!
                 </h3>
                 <h5 class="satoshi font-bold font-2rem text-[#1678F2]">
-                    [BRAND] Pro + PLR License
+                    FitMeal Pro + PLR License
                 </h5>
 
                 <p class="satoshi font-1-5rem mt-8 w-full md:w-[75%]">
@@ -263,7 +263,7 @@
 
                 <h1 class="satoshi font-1-5rem mt-16">
                     Secure Your Special Price for Only <span class="line-through">  $97 $67 $47</span> <br>
-                    <span class="spicy-rice font-2-5rem text-[#1678F2]">JUST $37</span>
+                    <span class="poppins-black font-2-5rem text-[#1678F2]">JUST $37</span>
                 </h1>
 
                 <div class="m-16"></div>
