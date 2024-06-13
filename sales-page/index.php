@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Sales Page - E-Recipe</title>
+    <title>Sales Page - FitMeal</title>
 </head>
 
 <body>
@@ -35,16 +35,15 @@
                     Nourish Your Body, Heal Your Mind: Experience the power of food therapy with our curated recipe collection
                 </h3>
 
-                <h1 class="spicy-rice text-[#121212] text-center leading-tight font-3-5rem mt-16 md:w-[70%] capitalize">
-                    <span class="text-[#1678F2]">
-                        <span class="char">E</span>
-                        <span class="char">-</span>
-                        <span class="char">R</span>
-                        <span class="char">e</span>
-                        <span class="char">c</span>
+                <h1 class="poppins-bold text-[#121212] text-center leading-tight font-3-5rem mt-16 md:w-[80%]">
+                    <span class="text-[#1678F2] tracking-tighter">
+                        <span class="char">F</span>
                         <span class="char">i</span>
-                        <span class="char">p</span>
+                        <span class="char">t</span>
+                        <span class="char">M</span>
                         <span class="char">e</span>
+                        <span class="char">a</span>
+                        <span class="char">l</span>
                     </span>
                     : Elevate Your Cooking, Elevate Your Wellness
                 </h1>
@@ -56,14 +55,14 @@
                 </div>
             </div>
 
-            <img class="p-5 w-[100%] md:w-[80%]" src="https://placehold.co/400x200/png" alt="">
+            <img class="p-5 w-[100%] md:w-[80%]" src="img/Mockup.png" alt="">
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-5 my-16 px-5 md:px-0 w-[100%] md:w-[80%] text-start text-[#121212]">
                 <div class="bg-[#FFFFFF] px-4 md:px-5 lg:px-6 py-5 w-full rounded-b-2xl border-t-8 border-[#1678F2] drop-shadow-2xl">
                     <div class="flex flex-col justify-start">
                         <img class=" w-[10%] md:w-[10%] me-5 mb-3 md:mb-5" src="img/icon.png" alt="">
                         <h3 class="font-1-5rem satoshi font-semibold">
-                            Over 30+ Spooky Tales to Choose From
+                            Over 150+ Delicious & Healthy Recipe
                         </h3>
                     </div>
                 </div>
@@ -111,7 +110,7 @@
         </div>
 
         <div class="bg-[#F3F3FD] border-gradient-1 flex flex-col items-center justify-center text-center p-3 md:p-0 text-[#121212]">
-            <h1 class="spicy-rice font-3rem mt-12">
+            <h1 class="poppins-bold font-2-5rem mt-12 w-full md:w-[70%]">
                 Exclusive Recipe Vault: Unlock 150+ Delicious & Healthy Dishes!
             </h1>
 
@@ -129,7 +128,7 @@
 
     <div class="bg-5 container-lg">
         <div class="flex flex-col items-center justify-center text-center px-5 md:px-0">
-            <h1 class="spicy-rice font-3rem mt-16 text-[#FFFFFF] leading-tight tracking-wider w-[95%] md:w-[70%]">
+            <h1 class="poppins-bold font-2-5rem mt-16 text-[#FFFFFF] leading-tight tracking-wider w-[100%] md:w-[70%]">
                 Do You Find It Difficult To Find Delicious And Easy-To-Follow Recipes That Cater To Your Specific Health Needs?
             </h1>
 
@@ -187,24 +186,24 @@
             <h3 class="satoshi font-1-5rem">
                 Introducing...
             </h3>
-            <h1 class="spicy-rice font-3-5rem">
-                [ BRAND ]
+            <h1 class="poppins-bold font-3-5rem tracking-widest text-[#1678F2]">
+                FitMeal
             </h1>
             <p class="satoshi font-1-5rem italic mt-8 md:mt-12">
                 Nourish Your Body, Heal Your Mind: Take Control of Your Health with Every Bite
             </p>
 
-            <img class="my-12 w-[100%] md:w-[60%]" src="https://placehold.co/400x200/png" alt="">
+            <img class="my-12 w-[100%] md:w-[60%]" src="img/Mockup.png" alt="">
 
             <p class="satoshi font-1-2rem w-full md:w-[60%] capitalize">
                 Your journey to a healthier you starts with one simple step: embracing the power of food. Our e-recipe book, empowers you to take control of your health, providing you with delicious, easy-to-follow recipes that promote well-being without compromising taste.
             </p>
 
-            <p class="spicy-rice font-3rem mt-12">
+            <p class="poppins-bold font-3rem mt-12">
                 Come With Reseller Right
             </p>
 
-            <img class="my-5 w-[100%] md:w-[60%] rounded-lg" src="https://placehold.co/400x200/png" alt="">
+            <img class="my-5 w-[100%] md:w-[50%] rounded-lg" src="img/sertif.png" alt="">
 
             <p class="satoshi font-2rem w-full md:w-[70%] my-8 leading-tight">
                 Unlock Unlimited Potential with Our Exclusive Reseller Right Digital Product Spookids for Resellers!
@@ -221,7 +220,7 @@
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center pt-8 md:pt-16 px-5 md:px-0">
-            <h1 class="spicy-rice font-3rem text-[#FFFFFF] w-full md:w-[75%] mb-8 md:mb-16 pt-8 mb:pt-0 capitalize leading-tight tracking-wider">
+            <h1 class="poppins-bold font-2-5rem text-[#FFFFFF] w-full md:w-[80%] mb-8 md:mb-16 pt-8 mb:pt-0 capitalize leading-tight tracking-wider">
                 Embark on a culinary journey to wellness with our extensive collection of over 150+ recipes tailored to your specific health needs.
             </h1>
 
@@ -280,7 +279,7 @@
                         SEE WHAT'S INSIDE
                     </h3>
 
-                    <h1 class="spicy-rice font-3rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize tracking-wider w-full md:w-[90%]">
+                    <h1 class="poppins-bold font-2-5rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize tracking-wider w-full md:w-[90%]">
                         Every Delicious & Healthy Recipe Awaits! Unlike other recipe collections, ours offers 150+ exclusive, chef-crafted creations designed to empower your wellness journey
                     </h1>
 
@@ -332,7 +331,7 @@
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="spicy-rice capitalize font-3rem text-[#FFFFFF] w-full md:w-[90%] mb-0 md:mb-12 tracking-wider leading-tight">
+            <h1 class="poppins-bold capitalize font-2-5rem text-[#FFFFFF] w-full md:w-[80%] mb-0 md:mb-12 tracking-wider leading-tight">
                 Unlock a world of delicious recipes designed to support your unique health goals
             </h1>
 
@@ -362,7 +361,7 @@
 
     <div class="bg-3 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="spicy-rice font-3rem text-[#121212] capitalize w-full md:w-[85%] tracking-wider leading-tight">
+            <h1 class="poppins-bold font-2-5rem text-[#121212] capitalize w-full md:w-[85%] tracking-wider leading-tight">
                 Discover a world of culinary possibilities and support your health goals with our thoughtfully e-recipe book, designed to empower you on your wellness journey
             </h1>
 
@@ -426,11 +425,11 @@
 
     <div class="container-lg bg-[#F3F3FD] border-gradient-1">
         <div class="flex flex-col items-center justify-center px-3 md:px-0 py-8 md:py-16">
-            <h1 class="spicy-rice text-[#121212] text-center font-3rem w-full md:w-[80%] leading-tight tracking-wider">
-                Grant Your Launch Discount for <span class="text-[#1678F2]">"[ BRAND ]"</span> Today! <br> For One Time Investment Only!
+            <h1 class="poppins-bold text-[#121212] text-center font-2-5rem w-full md:w-[80%] leading-tight tracking-wider">
+                Grant Your Launch Discount for <span class="text-[#1678F2]">"FitMeal"</span> Today! <br> For One Time Investment Only!
             </h1>
 
-            <p class="satoshi text-center font-semibold font-2-5rem text-[#1678F2] mt-8 md:mt-12 leading-tight">
+            <p class="satoshi text-center font-semibold font-2rem text-[#1678F2] mt-8 md:mt-12 leading-tight">
                 And Start Making Money by <br>Getting The Reseller Right
             </p>
 
@@ -438,42 +437,39 @@
                 Your Early Bird Discount Valid for the Next
             </p>
 
-            <div class="countdown flex justify-center items-start gap-4 text-[#1678F2] spicy-rice">
+            <!-- <div class="countdown flex justify-center items-start gap-4 text-[#1678F2] poppins-bold">
                 <div class="flex flex-col justify-center items-center leading-tight">
-                    <div class="days text-[5rem] font-medium"></div>
-                    <p class="text-[2rem] text-[#121212]">Days</p>
+                    <div class="days text-[4rem] font-medium"></div>
+                    <p class="text-[1.5rem] text-[#121212]">Days</p>
                 </div>
                 <div class="text-[4rem] font-medium">:</div>
                 <div class="flex flex-col justify-center items-center leading-tight">
-                    <div class="hours text-[5rem] font-medium"></div>
-                    <p class="text-[2rem] text-[#121212]">Hours</p>
+                    <div class="hours text-[4rem] font-medium"></div>
+                    <p class="text-[1.5rem] text-[#121212]">Hours</p>
                 </div>
                 <div class=" text-[4rem] font-medium">:</div>
                 <div class="flex flex-col justify-center items-center leading-tight">
-                    <div class="minutes text-[5rem] font-medium"></div>
-                    <p class="text-[2rem] text-[#121212]">Minutes</p>
+                    <div class="minutes text-[4rem] font-medium"></div>
+                    <p class="text-[1.5rem] text-[#121212]">Minutes</p>
                 </div>
             </div>
-            <div class="flex flex-col justify-center items-center relative text-white my-8 spicy-rice">
+            <div class="flex flex-col justify-center items-center relative text-white my-8 poppins-bold">
                 <div class="flex justify-center items-center">
                     <div class="text-center flex justify-center items-center w-80 hidden md:flex">
                         <h3 class="text-[6rem] leading-[9rem] text-[#121212]">DO <br> N'T</h3>
                     </div>
-                    <div class="flex justify-center items-center gap-1">
+                    <div class="flex justify-center items-center">
                         <div class="">
-                            <div class="h-[110px] w-[128px] bg-[#1678F2] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)] rounded-t-lg"></div>
-                            <div class="h-[110px] w-[128px] bg-gradient-to-tl from-[#6F3AFA] to-[#1678F2] rounded-b-lg"></div>
-                        </div>
-                        <div class="">
-                            <div class="h-[110px] w-[128px] bg-[#1678F2] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)] rounded-t-lg"></div>
-                            <div class="h-[110px] w-[128px] bg-gradient-to-tl from-[#6F3AFA] to-[#1678F2] rounded-b-lg"></div>
+                            <div class="h-[110px] w-[250px] bg-[#1678F2] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)] rounded-t-lg"></div>
+                            <div class="h-[110px] w-[250px] bg-gradient-to-tl from-[#6F3AFA] to-[#1678F2] rounded-b-lg"></div>
                         </div>
                     </div>
-                    <div class="text-center flex justify-center items-center text-[10rem] text-[#FFFFFF] absolute left-[15px] md:left-[335px]">
-                        <div class="seconds-puluhan font-medium"></div>
+                    <div class="text-center flex justify-center items-center text-[9rem] text-[#FFFFFF] absolute left-[15px] md:left-[340px]">
+                        <div class="seconds-puluhan"></div>
                     </div>
-                    <div class="text-center flex justify-center items-center text-[10rem] text-[#FFFFFF] absolute right-[15px] md:right-[335px]">
-                        <div class="seconds-satuan font-medium"></div>
+                    <div class="text-center flex justify-center items-center text-[9rem] text-[#FFFFFF] absolute right-[15px] md:right-[340px]">
+                        <div class="seconds-satuan"></div>
+                        <div class="milli-seconds text-[2rem] ms-2" style="width: 20px;"></div>
                     </div>
                     <div class="text-center flex justify-center items-center w-80 hidden md:flex">
                         <h3 class="text-[6rem] leading-[9rem] text-[#121212]">MISS <br> IT!</h3>
@@ -482,16 +478,52 @@
                 <div class="text-center flex justify-center items-center text-[2rem] text-[#121212] absolute top-[256px] left-[335px] tracking-[1rem] hidden md:flex mt-8">
                     <p>SECONDS</p>
                 </div>
+            </div> -->
+            <div class="flex flex-wrap items-start justify-center w-full gap-4 count-down-main">
+                <div class="timer w-24 sm:w-28">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="countdown-element days satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
+                    </div>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Days</p>
+                </div>
+                <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+                <div class="timer w-24 sm:w-28">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="countdown-element hours satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
+                    </div>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Hours</p>
+                </div>
+                <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+                <div class="timer w-24 sm:w-28">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="countdown-element minutes satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
+                    </div>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Minutes</p>
+                </div>
+                <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+                <div class="timer w-24 sm:w-28">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="countdown-element seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
+                    </div>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
+                </div>
+                <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+                <div class="timer w-24 sm:w-28">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
+                    </div>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-gray-900 mt-1 text-center w-full">ms</p>
+                </div>
             </div>
-            <a class="flex justify-center mt-8 md:mt-16" href="#cta">
-                <img class="w-[90%] md:w-[40%] cta" src="img/cta2.png" alt="">
-            </a>
+
+            <a id="cta" class="bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold mt-8 md:mt-16" href="#">Get Instant Access Now</a>
+
         </div>
     </div>
 
     <div class="bg-1 container-lg">
         <div class="flex flex-col items-center justify-center text-center py-16 px-5 md:px-0">
-            <h1 class="spicy-rice font-3rem text-[#FFFFFF] w-full md:w-[60%] leading-tight tracking-wider">
+            <h1 class="poppins-bold font-2-5rem text-[#FFFFFF] w-full md:w-[60%] leading-tight tracking-wider">
                 You Are Able to Get <span class="text-[#FFFFFF]">Reseller Rights</span> To Make BIG Money... FASTER... EASIER!!
             </h1>
 
@@ -500,7 +532,7 @@
                     <img src="img/coin.png" alt="" class="w-[70%] md:w-[900px]">
                 </div>
                 <div class="flex flex-col justify-center text-justify mx-3 md:mx-6">
-                    <h3 class="satoshi font-semibold font-1rem text-[#121212]">
+                    <h3 class="satoshi font-semibold font-1-2rem text-[#121212]">
                         We Are Offering You A Mind-Blowing And Extremely Profiting Opportunity To Get
                         <span class="text-[#1678F2]">
                             Reseller Right
@@ -526,13 +558,13 @@
 
     <div class="bg-[#F3F3FD] container-lg">
         <div class="flex flex-col items-center justify-center text-center py-12 px-8 md:px-12">
-            <h1 class="spicy-rice font-3rem text-[#121212] w-full md:w-[80%] leading-tight tracking-wider">
+            <h1 class="poppins-bold font-2-5rem text-[#121212] w-full md:w-[80%] leading-tight tracking-wider">
                 This Money-Making Opportunity Will Sky-Rocket Your Profits In Just 4 Easy Steps…
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-1 gap-5 my-16 text-center">
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
+                    <h1 class="text-[#FFFFFF] poppins-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem tracking-wider">
                         STEP #1 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -543,7 +575,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
+                    <h1 class="text-[#FFFFFF] poppins-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem tracking-wider">
                         STEP #2 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -554,7 +586,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
+                    <h1 class="text-[#FFFFFF] poppins-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem tracking-wider">
                         STEP #3 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -565,7 +597,7 @@
                     </h3>
                 </div>
                 <div class="bg-1 rounded-2xl flex flex-col justify-center items-center px-4 md:px-4 lg:px-5 py-8 md:py-8">
-                    <h1 class="text-[#FFFFFF] spicy-rice px-3 md:px-4 lg:px-5 w-full font-2rem tracking-wider">
+                    <h1 class="text-[#FFFFFF] poppins-bold px-3 md:px-4 lg:px-5 w-full font-1-5rem tracking-wider">
                         STEP #4 :
                     </h1>
                     <div class="flex items-center justify-center my-3">
@@ -581,12 +613,12 @@
 
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-[#FFFFFF] text-center py-16 px-5 md:px-16">
-            <h1 class="spicy-rice font-3rem w-full tracking-wider">
+            <h1 class="poppins-bold font-2-5rem w-full tracking-wider">
                 How To Make Money With This
                 Advance Licensed Product…
             </h1>
             <h3 class="satoshi font-1-5rem mt-5 w-full md:w-[70%]">
-                <span class="montserrat-medium">The Package Holds Limitless Potential!!</span> - Use It With Complete Confidence To Gain Insane Profits For Your Own
+                The Package Holds Limitless Potential !! - Use It With Complete Confidence To Gain Insane Profits For Your Own
             </h3>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-5 my-8 md:my-16 text-[#121212]">
@@ -664,16 +696,16 @@
 
     <div id="cta1" class="container-lg bg-[#F3F3FD]">
         <div class="flex flex-col items-center justify-center text-[#F3E9D3] text-center py-16 px-5 md:px-0">
-            <h1 class="spicy-rice text-[#121212] text-center font-3rem w-full md:w-[70%] leading-tight tracking-wider mb-12">
+            <h1 class="poppins-bold text-[#121212] text-center font-2-5rem w-full md:w-[70%] leading-tight tracking-wider mb-12">
                 Don't Wait Any Longer... <br>
-                Grab Full Access To <span class="text-[#1678F2]">[BRAND]</span> Now ! <br> With <span class="text-[#1678F2]">50% Discount</span>
+                Grab Full Access To <span class="text-[#1678F2]">FitMeal</span> Now ! <br> With <span class="text-[#1678F2]">50% Discount</span>
             </h1>
 
-            <img class="p-5 w-[100%] md:w-[90%]" src="https://placehold.co/400x200/png" alt="">
+            <img class="p-5 w-[100%] md:w-[90%]" src="img/Mockup-2.png" alt="">
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%] my-16">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
-                    <h1 class="bg-card rounded-2xl spicy-rice tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
+                    <h1 class="bg-card rounded-2xl poppins-semibold tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
                         Personal License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#121212]">
@@ -712,7 +744,7 @@
                     </div>
                 </div>
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 capitalize">
-                    <h1 class="bg-[#7C5A90] rounded-2xl spicy-rice tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
+                    <h1 class="bg-[#7C5A90] rounded-2xl poppins-semibold tracking-wider text-[#FFFFFF] font-2rem my-3 py-3">
                         Reseller Right License
                     </h1>
                     <div class="flex flex-row items-center satoshi font-1rem mt-8 text-[#312E35]">
@@ -763,10 +795,10 @@
 
     <div class="container-lg bg-1">
         <div class="flex flex-col items-center justify-center text-center py-16">
-            <h1 class="spicy-rice font-3rem text-[#1678F2] text-stroke">
+            <h1 class="poppins-bold font-3rem text-[#1678F2] text-stroke">
                 F . A . Q
             </h1>
-            <h2 class="spicy-rice tracking-widest font-2-5rem">
+            <h2 class="poppins-bold tracking-widest font-2-5rem">
                 <span class="text-[#FFFFFF]">Frequently</span>
                 <span class="text-[#FFFFFF]">Asked</span>
                 <span class="text-[#FFFFFF]">Questions</span>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Upsell Page - E-Recipe</title>
+    <title>Upsell Page - FitMeal</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <div class="flex flex-col items-center justify-center h-screen px-5">
             <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl px-4 md:px-6 lg:px-8 py-5 w-full md:w-[40%] h-[70%] md:h-[90%] flex flex-col items-center justify-center text-center text-[#121212]">
                 <div class="flex flex-row items-center justify-center">
-                    <h3 class="spicy-rice font-2rem text-[#1678F2] tracking-wider">
+                    <h3 class="poppins-bold font-2rem text-[#1678F2] tracking-wider">
                         YOUR PURCHASE SUCCESS!
                     </h3>
                 </div>
@@ -35,16 +35,16 @@
 
     <div id="intro" class="container-lg bg-3">
         <div class="flex flex-col items-center justify-center text-center p-5 py-16 text-[#312E35]">
-            <h1 class="spicy-rice font-3rem leading-tight tracking-wider w-full md:w-[80%]">
+            <h1 class="poppins-bold font-2-5rem leading-tight tracking-wider w-full md:w-[80%]">
                 Unleash the Full Potential of Your Wellness Journey: Upgrade to Pro for 350+ Exclusive Recipes
             </h1>
             <h3 class="satoshi font-1-5rem my-16 w-full md:w-[80%] capitalize">
                 While your current e-recipe book offers a wealth of options, unlock a whole new level of culinary wellness with our Pro upgrade. Gain access to 350+ exclusive recipes with a Private Label Rights (PLR) license and explore a world of delicious possibilities tailored to your health goals.
             </h3>
 
-            <img class="w-[100%] md:w-[80%]" src="https://placehold.co/400x200/png" alt="">
+            <img class="w-[100%] md:w-[80%]" src="img/Mockup.png" alt="">
 
-            <h3 class="spicy-rice font-2-5rem my-16 w-full md:w-[70%]">
+            <h3 class="poppins-bold font-2-5rem my-16 w-full md:w-[70%]">
                 Unlock a World of Culinary Wellness & Maximize Results with the Pro Upgrade
             </h3>
 
@@ -94,7 +94,7 @@
         <div class="flex flex-col items-center justify-center px-5 md:px-0 py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%]">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-lg rounded-2xl h-full md:h-[75%]">
-                    <h1 class="bg-1 spicy-rice tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
+                    <h1 class="bg-1 poppins-bold tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
                         YOUR CURRENT PACKAGE
                     </h1>
 
@@ -110,7 +110,7 @@
                         <?php } ?>
 
                         <div class="flex flex-row items-center justify-center my-12">
-                            <h3 class="font-2rem spicy-rice ms-3">
+                            <h3 class="font-2rem poppins-bold ms-3">
                                 Total Value = <span class="text-[#FF0000]">$ 27.750</span>
                             </h3>
                         </div>
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-lg rounded-2xl h-full">
-                    <h1 class="bg-[#7C5A90] spicy-rice tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
+                    <h1 class="bg-[#7C5A90] poppins-bold tracking-wider font-2rem my-8 py-3 text-[#FFFFFF] text-center">
                         NEW EXTENDED PACKAGE
                     </h1>
 
@@ -134,7 +134,7 @@
                         <?php } ?>
 
                         <div class="flex flex-row items-center justify-center my-12">
-                            <h3 class="font-2rem spicy-rice ms-3">
+                            <h3 class="font-2rem poppins-bold ms-3">
                                 Total Value = <span class="text-[#FF0000]">$ 27.750</span>
                             </h3>
                         </div>
@@ -146,8 +146,8 @@
 
     <div class="container-lg bg-[#F3F3FD]">
         <div class="flex flex-col items-center justify-center text-center pt-16 px-5 md:px-0">
-            <h2 class="spicy-rice font-3rem w-full tracking-wider md:w-[50%] px-3 mb-8 md:mb-16">
-                Why Upgrade to [BRAND] Pro?
+            <h2 class="poppins-bold font-2-5rem w-full tracking-wider md:w-[60%] px-3 mb-8 md:mb-16 text-[#121212]">
+                Why Upgrade to <span class="text-[#1678F2]">FitMeal </span>Pro?
             </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 w-full md:w-[90%]">
@@ -195,10 +195,10 @@
         <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-12 px-3 md:px-0">
             <div class="w-full md:w-[80%] flex flex-col justify-center items-center">
                 <h3 class="bg-card text-[#FFFFFF] rounded-full py-2 satoshi font-bold font-1-2rem w-full md:w-[40%]">
-                    SEE WHAT'S INSIDE [BRAND] PRO!
+                    SEE WHAT'S INSIDE FitMeal PRO!
                 </h3>
 
-                <h1 class="spicy-rice font-3rem leading-tight tracking-wider my-8 text-[#121212] px-8 md:px-0">
+                <h1 class="poppins-bold font-2-5rem leading-tight tracking-wider my-8 text-[#121212] px-8 md:px-0">
                     Explore Our Every Exclusive Recipe
                 </h1>
 
@@ -249,11 +249,11 @@
     <div class="container-lg bg-[#F3F3FD]">
         <div class="flex flex-col items-center justify-center px-5 md:px-0">
             <div class="border-0 bg-4 rounded-2xl my-12 md:my-24 px-4 md:px-8 lg:px-12 py-8 md:py-16 w-full md:w-[50%] flex flex-col items-center justify-center text-center text-[#121212] drop-shadow-2xl">
-                <h3 class="spicy-rice font-3rem tracking-wider">
+                <h3 class="poppins-bold font-3rem tracking-wider">
                     LIMITED TIME OFFER!!!
                 </h3>
                 <h5 class="satoshi font-bold font-2rem text-[#1678F2]">
-                    [BRAND] Pro + PLR License
+                    FitMeal Pro + PLR License
                 </h5>
 
                 <p class="satoshi font-1-5rem mt-8 w-full md:w-[75%]">
@@ -264,7 +264,7 @@
 
                 <h1 class="satoshi font-1-5rem mt-16">
                     Secure Your Special Price for Only <span class="line-through">  $97 $67 $47</span> <br>
-                    <span class="spicy-rice font-2-5rem text-[#1678F2]">JUST $37</span>
+                    <span class="poppins-bold font-2-5rem text-[#1678F2]">JUST $37</span>
                 </h1>
 
                 <div class="m-16"></div>
