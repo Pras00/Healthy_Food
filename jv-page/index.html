@@ -7,6 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script> 
   <title>JV Page</title>
@@ -14,58 +17,43 @@
 <body class="bg-[#EAEEFC] bg-center bg-cover bg-repeat bg-fixed overflow-x-hidden">
 
   <!-- Navbar -->
-  <section class="bg-[#1678F2] py-3 max-[480px]:py-2 mt-8 max-[480px]:mt-5 mx-5 rounded-[50px] sticky top-2 z-20">
-    <nav class="flex justify-between items-center">
-      <div class="ml-12">
-        <img class="w-[12%] max-[992px]:w-[15%]" src="./img/logo.png" alt="logo">
-      </div>
-      <div class="min-[769px]:flex min-[320px]:hidden justify-evenly items-center bg-white w-[70rem] max-[1200px]:w-[80rem] max-[992px]:w-[120rem] max-[800px]:w-[140rem] py-4 rounded-[30px] mr-4">
-        <a href="#contest" class="smooth-scroll flex justify-center items-center gap-1 rounded-[30px]">
-          <p class="font-medium">contest</p>
-          <svg class="text-[#1678F2]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-          </svg>
-        </a>
-        <a href="#affiliate" class="smooth-scroll flex justify-center items-center gap-1 rounded-[30px]">
-          <p class="font-medium">Affiliate Link</p>
-          <svg class="text-[#1678F2]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-          </svg>
-        </a>
-        <a href="#promotion" class="smooth-scroll flex justify-center items-center gap-1 rounded-[30px]">
-          <p class="font-medium">Promotion Material</p>
-          <svg class="text-[#1678F2]" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-          </svg>
-        </a>
-      </div>
-      <div class="container min-[769px]:hidden min-[320px]:flex flex-col items-end mr-10 mt-1 cursor-pointer" onclick="myFunction(this)">
-        <div class="bar1 w-9 h-1 bg-white mb-1 rounded-[20px]"></div>
-        <div class="bar2 w-9 h-1 bg-white mb-1 rounded-[20px]"></div>
-        <div class="bar3 w-9 h-1 bg-white mb-1 rounded-[20px]"></div>
-      </div>
-    </nav>
-    <div class="burger flex-col justify-center items-end mr-10 mt-5 gap-3">
-      <a href="#contest" class="smooth-scroll flex justify-center items-center gap-2 rounded-[30px]">
-        <p class="font-medium text-white">contest</p>
-        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-          <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+  <section id="navbar" class="flex justify-between items-center bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] py-4 px-20 max-[768px]:px-10 sticky top-0 z-20">
+    <img class="w-[12%] max-[768px]:w-[15%] max-[600px]:w-[18%] max-[500px]:w-[28%]" src="./img/logo.png" alt="logo">
+    <div class="flex justify-center items-center gap-12 max-[768px]:hidden">
+      <a class="smooth-scroll flex justify-center items-center gap-1 text-white hover:border-b-[1px] hover:border-white" href="#affiliate">
+        <p>Affiliate Link</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+          <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
         </svg>
       </a>
-      <a href="#affiliate" class="smooth-scroll flex justify-center items-center gap-2 rounded-[30px]">
-        <p class="font-medium text-white">Affiliate Link</p>
-        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-          <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-        </svg>
-      </a>
-      <a href="#promotion" class="smooth-scroll flex justify-center items-center gap-2 rounded-[30px]">
-        <p class="font-medium text-white">Promotion Material</p>
-        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-          <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+      <a class="smooth-scroll flex justify-center items-center gap-1 text-white hover:border-b-[1px] hover:border-white" href="#contest">
+        <p>Contest</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+          <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
         </svg>
       </a>
     </div>
+    <!-- Bar -->
+    <div class="container max-[768px]:flex flex-col hidden items-end" onclick="myFunction(this)">
+      <div class="bar1 rounded-[10px] bg-white"></div>
+      <div class="bar2 rounded-[10px] bg-white"></div>
+      <div class="bar3 rounded-[10px] bg-white"></div>
+    </div>
   </section>
+  <div class="burger bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] w-full px-10 justify-center items-start fixed z-20">
+    <a class="smooth-scroll flex justify-center items-center gap-1 text-white hover:border-b-[1px] hover:border-white py-3 border-white border-t-[2px] border-b-[2px] w-full float-start" href="#affiliate">
+      <p>Affiliate Link</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
+      </svg>
+    </a>
+    <a class="smooth-scroll flex justify-center items-center gap-1 text-white hover:border-b-[1px] hover:border-white py-3 border-white border-b-[2px] w-full float-start" href="#contest">
+      <p>Contest</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
+      </svg>
+    </a>
+  </div>
 
 
   <video autoplay muted loop id="bg-video">
@@ -74,9 +62,10 @@
   <!-- Hero -->
   <section class="relative bg-video">
     <div class="flex flex-col justify-center items-center text-center px-32 max-[992px]:px-24 max-[768px]:px-8 max-[480px]:px-4 mt-16 max-[768px]:mt-12 max-[480px]:mt-7">
-      <h1 class="headline text-[4rem] max-[992px]:text-[3rem] max-[768px]:text-[2.65rem] max-[480px]:text-[1.5rem] leading-[4rem] max-[768px]:leading-[3rem] max-[480px]:leading-[2rem] text-black font-semibold">Join Us Promoting <br> Our Premium <span class="text-[#3A8EF6]">E-RECIPE</span> Collection <br> Get Instant Commissions on <br> Easy to Sell Nutritious and Delicious Recipes</h1>
-      <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] px-10 max-[992px]:px-5 max-[480px]:px-2 py-2 rounded-[20px] mt-5">
-        <h3 class="sub-headline tracking-[1px] text-[1.65rem] max-[992px]:text-[1.5rem] max-[768px]:text-[1.35rem] max-[480px]:text-[0.8rem] text-white font-semibold leading-[2rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">Explore 10+ Deliciously Healthy Recipes: Earn Instant Commissions, Easy Selling, Satisfied Customers!</h3>
+      <h1 class="headline text-[2.5rem] max-[1024px]:text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] text-black font-semibold">Join Us Promoting Our Premium <span class="text-[#3A8EF6]">E-RECIPE</span> Collection</h1>
+      <h1 class="headline text-[4rem] max-[992px]:text-[3rem] max-[768px]:text-[2.65rem] max-[480px]:text-[1.5rem] leading-[4rem] max-[768px]:leading-[3rem] max-[480px]:leading-[2rem] text-black font-semibold">Get Instant Commissions on <br> Easy to Sell Nutritious and Delicious Recipes</h1>
+      <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] px-64 max-[1024px]:px-16 max-[992px]:px-10 max-[480px]:px-2 py-3 rounded-[20px] mt-5">
+        <h3 class="sub-headline tracking-[1px] text-[1.65rem] max-[992px]:text-[1.5rem] max-[768px]:text-[1.35rem] max-[568px]:text-[0.8rem] text-white font-semibold leading-[2rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">Explore 10+ Deliciously Healthy Recipes</h3>
       </div>
     </div>
     <div class="flex justify-center items-center mt-16 mb-12 max-[768px]:my-8 max-[480px]:my-5">
@@ -86,6 +75,7 @@
       <h3>Elevate your menu with our healthy recipes! Expand your business by providing nutritious and delicious meal options that your customers will love. Start creating and selling wholesome dishes today!</h3>
     </div>
   </section>
+
 
   <!-- Timeline -->
   <section class="flex place-content-center gap-10 max-[600px]:gap-5 max-[480px]:gap-3 py-12 max-[768px]:py-8 max-[600px]:py-5">
@@ -101,58 +91,48 @@
     </div>
   </section>
 
+
   <!-- Countdown -->
-  <section class="countdown-container flex flex-col place-content-center px-10 max-[480px]:px-3 mb-20">
-    <h3 class="text-[2rem] max-[992px]:text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] font-light text-center">Going Live - Saturday, 26th October 2024, 09:00 AM EST</h3>
-    <div class="countdown flex justify-center items-start gap-4">
-      <div class="flex flex-col justify-center items-center">
-        <div class="days text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
-        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Days</p>
-      </div>
-      <div class="text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium">:</div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="hours text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
-        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Hours</p>
-      </div>
-      <div class="text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium">:</div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="minutes text-black text-[5rem] max-[768px]:text-[4rem] max-[480px]:text-[2rem] font-medium"></div>
-        <p class="text-black text-[1.5rem] max-[768px]:text-[1.25rem] max-[480px]:text-[0.8rem] -mt-5 max-[480px]:-mt-2">Minutes</p>
-      </div>
+  <div class="flex flex-wrap items-start justify-center w-full gap-4 count-down-main mb-16">
+    <div class="timer w-24 sm:w-28">
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <h3 class="countdown-element days satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
+        </div>
+        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Days</p>
     </div>
-    <div class="relative flex flex-col place-content-center">
-      <div class="grid grid-cols-3 max-[600px]:grid-cols-1 place-items-center max-[992px]:gap-5 max-[768px]:gap-10">
-        <div class="text-center flex justify-end items-center w-full max-[600px]:hidden">
-          <h3 class="happyHalloween dont-miss font-medium text-black text-[6rem] max-[768px]:text-[4rem] leading-[9rem] max-[768px]:leading-[7rem]">DO <br> N'T</h3>
+    <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+    <div class="timer w-24 sm:w-28">
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <h3 class="countdown-element hours satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
         </div>
-        <div class="flex place-content-center gap-1 max-[600px]:mt-5">
-          <div class="relative">
-            <div class="text-center flex justify-center items-center text-[10rem] max-[768px]:text-[8rem] max-[600px]:text-[7rem] max-[480px]:text-[5rem] text-white absolute z-[3] left-[12%] bottom-[0.5%]">
-              <div class="seconds-puluhan"></div>
-            </div>
-            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-[#3A8EF6] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)]"></div>
-            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-gradient-to-br from-[#3A8EF6] to-[#6F3AFA]"></div>
-          </div>
-          <div class="relative">
-            <div class="text-center flex justify-center items-center text-[10rem] max-[768px]:text-[8rem] max-[600px]:text-[7rem] max-[480px]:text-[5rem] text-white absolute z-[3] left-[12%] bottom-[0.5%]">
-              <div class="seconds-satuan"></div>
-            </div>
-            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-[#3A8EF6] drop-shadow-[0_4px_3px_rgba(0,0,0,0.5)]"></div>
-            <div class="h-[110px] max-[768px]:h-[90px] max-[600px]:h-[80px] max-[480px]:h-[60px] w-[128px] max-[768px]:w-[100px] max-[600px]:w-[90px] max-[480px]:w-[70px] bg-gradient-to-br from-[#3A8EF6] to-[#6F3AFA]"></div>
-          </div>
-        </div>
-        <div class="text-center flex justify-start items-center w-full max-[600px]:hidden">
-          <h3 class="happyHalloween dont-miss font-medium text-black text-[6rem] max-[768px]:text-[4rem] leading-[9rem] max-[768px]:leading-[7rem]">MISS <br> IT!</h3>
-        </div>
-      </div>
-      <div class="relative w-full text-center pl-[1%] -mt-5 max-[768px]:-mt-3 max-[600px]:mt-2">
-        <p class="text-[2rem] max-[768px]:text-[1.5rem] max-[600px]:text-[1.25rem] max-[480px]:text-[1rem] tracking-[0.7rem] max-[480px]:tracking-[0.5rem]">SECONDS</p>
-      </div>
+        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Hours</p>
     </div>
-  </section>
+    <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+    <div class="timer w-24 sm:w-28">
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <h3 class="countdown-element minutes satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center"></h3>
+        </div>
+        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Minutes</p>
+    </div>
+    <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+    <div class="timer w-24 sm:w-28">
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <h3 class="countdown-element seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
+        </div>
+        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
+    </div>
+    <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
+    <div class="timer w-24 sm:w-28"> 
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
+        </div>
+        <p class="text-sm sm:text-lg satoshi font-bold text-gray-900 mt-1 text-center w-full">ms</p>
+    </div>
+  </div>
+
 
   <!-- Affiliate Link -->
-  <section id="affiiliate" class="bg-[#EAEEFC] border-gradient-1 border-gradient-2 py-16 max-[992px]:py-12 max-[768px]:py-10 max-[480px]:py-5">
+  <section id="affiliate" class="bg-[#EAEEFC] border-gradient-1 border-gradient-2 py-16 max-[992px]:py-12 max-[768px]:py-10 max-[480px]:py-5">
     <div class="text-center">
       <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-">Affiliate Link</h1>
       <h3 class="font-medium text-[1.25rem] max-[992px]:text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.8rem]">Get Your Affiliate Link Now<h3>
@@ -168,15 +148,16 @@
     </div>
   </section>
 
+
   <!-- About -->
   <section class="relative overflow-x-hidden flex flex-col place-items-center bg-[#EAEEFC] bg-cover bg-no-repeat bg-fixed bg-center py-16 max-[768px]:py-12 max-[480px]:py-8">
     <img class="absolute w-[35%] top-[10%] -left-[15%]" src="./img/strawberries.png" alt="">
     <img class="absolute w-[35%] top-[65%] -right-[10%]" src="./img/oranges.png" alt="">
     <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-medium">Introducing</h1>
-    <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-medium text-[#3A8EF6]">NutriHealth</h1>
+    <h1 class="text-[3.5rem] max-[992px]:text-[3rem] max-[768px]:text-[2.75rem] max-[480px]:text-[2rem] leading-[3.5rem] max-[992px]:leading-[3rem] max-[768px]:leading-[2.75rem] max-[480px]:leading-[2rem] font-medium text-[#3A8EF6]">FitMeal</h1>
     <div class="text-center w-[50%] max-[992px]:w-[85%] max-[768px]:w-[90%] max-[480px]:w-[95%] mt-10 max-[768px]:mt-5">
-      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem] mb-5">Discover the joy of healthy eating with [NutriHealth], the ultimate collection of nutritious recipes designed to support and manage various health conditions. Say goodbye to bland, restrictive diets and hello to flavorful, wholesome meals that cater to your unique dietary needs. From managing diabetes and heart disease to promoting overall wellness, our carefully curated recipes transform your kitchen into a haven of health and taste.</h3>
-      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">[NutriHealth] is a fresh, innovative product created by a team of expert nutritionists and culinary artists with over 15 years of experience in crafting health-centric digital products. Each recipe is meticulously developed to ensure it’s not only delicious but also packed with the nutrients your body needs to thrive.</h3>
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem] mb-5">Discover the joy of healthy eating with FitMeal, the ultimate collection of nutritious recipes designed to support and manage various health conditions. Say goodbye to bland, restrictive diets and hello to flavorful, wholesome meals that cater to your unique dietary needs. From managing diabetes and heart disease to promoting overall wellness, our carefully curated recipes transform your kitchen into a haven of health and taste.</h3>
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">FitMeal is a fresh, innovative product created by a team of expert nutritionists and culinary artists with over 15 years of experience in crafting health-centric digital products. Each recipe is meticulously developed to ensure it’s not only delicious but also packed with the nutrients your body needs to thrive.</h3>
     </div>
     <div class="flex justify-center items-center my-12 max-[992px]:my-8 max-[480px]:my-4">
       <img class="w-[65%] max-[992px]:w-[80%] max-[480px]:w-[90%]" src="./img/BoxMockup-phone.png" alt="mockup">
@@ -291,7 +272,7 @@
       </div>
     </div>
     <div class="text-center w-[50%] max-[992px]:w-[85%] max-[768px]:w-[90%] max-[480px]:w-[95%] my-12 max-[768px]:my-10">
-      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">Get ready to revolutionize your approach to health with [NutriHealth]: Healthy Recipes for Various Disease! Our collection of recipes is designed not only to delight your taste buds but also to support and manage a wide range of health conditions. With [NutriHealth], you'll empower and educate your audience, offering meals crafted to address specific dietary needs while still being irresistibly delicious.<h3>
+      <h3 class="text-[1.25rem] max-[768px]:text-[1rem] max-[480px]:text-[0.75rem] max-[768px]:-my-3 max-[480px]:-my-1 font-normal leading-[1.75rem] max-[768px]:leading-[1.5rem] max-[480px]:leading-[1rem]">Get ready to revolutionize your approach to health with FitMeal: Healthy Recipes for Various Disease! Our collection of recipes is designed not only to delight your taste buds but also to support and manage a wide range of health conditions. With FitMeal, you'll empower and educate your audience, offering meals crafted to address specific dietary needs while still being irresistibly delicious.<h3>
     </div>
     <div class="px-28 mb-10">
       <h3 class="text-center text-[2.5rem] max-[992px]:text-[2rem] max-[768px]:text-[1.5rem] max-[480px]:text-[1.1rem] leading-[2.75rem] max-[768px]:leading-[2rem] max-[480px]:leading-[1.5rem] font-semibold">Here are some specific examples <br> of how can be used by different professions:</h3>
@@ -344,6 +325,7 @@
     </div>
   </section>
 
+
   <!-- Affilate Contest -->
   <section id="contest" class="relative border-gradient-1 flex flex-col place-items-center bg-[#EAEEFC] bg-[url('./img/bg-3.png')] bg-cover bg-no-repeat bg-center w-full py-16 max-[768px]:py-12 max-[480px]:py-8 px-20 max-[480px]:px-5">
     <div class="text-center w-[70%] max-[992px]:w-[90%] max-[768px]:w-[100%]">
@@ -361,6 +343,7 @@
       <p>Teams of up to 2 are allowed for the contest. The leaderboard will be based on the front end sales during <span class="font-semibold">5 days</span> launch ending on <span class="font-semibold">05 July 2024</span> midnight at 23:59 EST.</p>
     </div>
   </section>
+
 
   <!-- Sales Funnel -->
   <section class="relative bg-[url('img/sales-funnel.png')] bg-center bg-cover bg-no-repeat grid grid-cols-3 max-[768px]:grid-cols-4 max-[600px]:grid-cols-1 place-items-center py-12 max-[992px]:py-12 max-[768px]:py-10 max-[480px]:py-5 px-16 max-[992px]:px-16 max-[480px]:px-12">
@@ -410,6 +393,7 @@
     </div>
   </section>
 
+
   <!-- Terms and Condition -->
   <section class="bg-[#EAEEFC] bg-cover bg-center bg-no-repeat bg-fixed py-16 max-[992px]:py-12 max-[768px]:py-10 max-[480px]:py-5 px-28 max-[992px]:px-16 max-[768px]:px-10 max-[480px]:px-5">
     <div class="flex justify-center items-center w-full">
@@ -452,6 +436,7 @@
       </div>
     </div>
   </section>
+
 
   <script src="./script.js"></script>
 </body>
