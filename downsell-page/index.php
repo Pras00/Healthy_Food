@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container-lg bg-[#F3F3FD] ">
+    <div class="container-lg bg-2">
         <div class="flex flex-col items-center justify-center h-screen px-5">
             <div class="border-0 bg-[#1678F2] drop-shadow-lg rounded-2xl px-4 md:px-6 lg:px-8 w-full md:w-[80%] h-[70%] md:h-[70%] flex flex-col items-center justify-center text-center md:text-start">
                 <div class="flex flex-col md:flex-row items-center justify-center">
@@ -37,12 +37,12 @@
         </div>
     </div>
 
-    <div id="intro" class="container-lg bg-1">
-        <div class="flex flex-col items-center justify-center text-center p-5 py-16 text-[#FFFFFF]">
+    <div id="intro" class="container-lg bg-3 border-gradient-1">
+        <div class="flex flex-col items-center justify-center text-center p-5 py-16 text-[#121212]">
             <h1 class="poppins-bold font-2-5rem leading-tight tracking-wider w-full md:w-[80%]">
                 Experience Culinary Mastery with Effortless Ease! Save $10 on Your Easy-to-Follow E-Recipe Collection!
             </h1>
-            <h3 class="satoshi font-1-5rem my-16 w-full md:w-[90%] capitalize">
+            <h3 class="satoshi font-1-5rem my-16 w-full md:w-[70%] capitalize">
                 While Your Current FitMeal Recipe Collection Offers Delicious Options, Unlock the Full Potential of Your Business with FitMeal Pro!
 
                 Upgrade to FitMeal Pro and Gain a Commercial License for Unprecedented Creative Freedom and Earning Potential!
@@ -52,7 +52,7 @@
             <img class="w-[100%] md:w-[80%] mb-8" src="img/Mockup.png" alt="">
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-2 gap-8 my-8 mx-3 md:mx-8 lg:mx-16 w-full md:w-[70%]">
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         An Extensive Culinary Library for Targeted Wellness
                     </h3>
@@ -60,7 +60,7 @@
                         Our comprehensive e-recipe book, "E-Recipe", provides an extensive culinary library tailored to address a wide range of health conditions. With over 150+ carefully curated recipes, you'll find the perfect dishes to support your specific needs, whether it's managing diabetes, heart health, or digestive issues.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Easy-to-Follow Instructions for Effortless Cooking
                     </h3>
@@ -68,7 +68,7 @@
                         Say goodbye to complex cooking manuals and confusing instructions. Our e-recipe book features clear, easy-to-follow recipes that anyone can master, regardless of their culinary experience. With step-by-step guidance, helpful tips, and vibrant images, you can effortlessly create delicious and nutritious meals in no time.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Recipe Sharing and Community Engagement
                     </h3>
@@ -76,7 +76,7 @@
                         Share your culinary creations and connect with like-minded individuals in our vibrant online community. Share your favorite recipes, exchange tips, and find inspiration from others who are passionate about healthy eating. Our platform fosters a supportive environment where you can learn, grow, and achieve your wellness goals together.
                     </p>
                 </div>
-                <div class="bg-4 rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
+                <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-12 py-16 text-start text-[#121212] drop-shadow-2xl">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
                         Targeted Culinary Solutions for a Range of Health Concerns
                     </h3>
@@ -89,7 +89,7 @@
     </div>
 
 
-    <div class="container-lg bg-[#F3F3FD]">
+    <div class="container-lg bg-[#F3F3FD] border-gradient-1">
         <div class="flex flex-col items-center justify-center px-5 md:px-0 py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8 w-full md:w-[70%]">
                 <div class="border-0 bg-[#FFFFFF] drop-shadow-2xl rounded-2xl h-full md:h-[75%]">

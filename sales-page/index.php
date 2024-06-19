@@ -162,18 +162,18 @@
             <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 w-full md:w-3/5 mb-16">
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
-                        Feeling Restricted and Uninspired by Bland Diets
+                        Lack of Variety and Feeling Discouraged by Limited Recipe Options
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
-                        Many people with specific health conditions feel restricted by bland and unappetizing diets. They crave delicious and satisfying meals that don't compromise their health goals. Your e-recipe book offers a solution with a variety of flavorful and healthy recipes designed for their specific needs.
+                        People with specific health conditions often get discouraged by the limited recipe options available for their needs. Your e-recipe book provides a breath of fresh air with a wide variety of over 10+ delicious and healthy recipes, ensuring they can maintain a balanced and enjoyable diet.
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
                     <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
-                        Feeling Restricted and Uninspired by Bland Diets
+                        Feeling Isolated and Alone in Their Health Journey
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
-                        Many people with specific health conditions feel restricted by bland and unappetizing diets. They crave delicious and satisfying meals that don't compromise their health goals. Your e-recipe book offers a solution with a variety of flavorful and healthy recipes designed for their specific needs.
+                        People with specific health conditions can sometimes feel isolated in their struggles. Your landing page can address this by highlighting a supportive community aspect (e.g., forums, testimonials) alongside your e-recipe book. This fosters a sense of connection and empowers them to feel less alone.
                     </p>
                 </div>
             </div>
@@ -276,7 +276,7 @@
             <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-16 px-3 md:px-0">
                 <div class="flex flex-col justify-center items-center">
                     <h3 class="bg-[#FFFFFF] text-[#121212] rounded-full py-2 satoshi font-bold font-1-2rem w-full md:w-[30%]">
-                        SEE WHAT'S INSIDE
+                        SEE WHAT'S FitMeal INSIDE
                     </h3>
 
                     <h1 class="poppins-bold font-2-5rem leading-tight mt-8 md:mt-16 text-[#FFFFFF] capitalize tracking-wider w-full md:w-[90%]">
@@ -286,46 +286,23 @@
                     <a href="#produk" class="w-[10%] md:w-[3%] mt-5 md:mt-12">
                         <img src="img/arrow.png" alt="">
                     </a>
-
                 </div>
             </div>
         </div>
     </div>
 
     <div id="produk" class="bg-[#FFFFFF] container-lg">
-        <div class="flex flex-row items-center justify-center py-8 md:py-16 px-5 md:px-16">
-            <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8">
-                    <?php
-                    include 'produk.php';
-
-                    foreach ($produk as $produk_data) {
-                    ?>
-                        <div class="bg-5 rounded-2xl flex flex-col justify-center items-center p-5 md:p-8">
-                            <h1 class="bg-[#FC9850] rounded-full halloween font-1-5rem px-12 py-2 mb-5 text-center text-[#312E35] leading-none"><?php echo $produk_data['title']; ?></h1>
-                            <p class="montserrat-regular font-1rem text-justify text-[#F3E9D3]"><?php echo $produk_data['paragraph']; ?></p>
-                            <div class="flex flex-row justify-center items-center">
-                                <div class="flex flex-col justify-center items-center w-[50%] md:w-[45%] mt-3 me-2 md:me-3">
-                                    <h1 class="halloween text-[#312E35] bg-[#F3E9D3] text-center rounded-full font-1-2rem mb-3 px-8">Preview</h1>
-                                    <div class="w-full rounded-2xl relative" style="cursor: pointer;">
-                                        <img src="<?php echo $produk_data['img-preview']; ?>" alt="Preview Image" class="w-full h-auto rounded-2xl preview-image" data-preview-url="<?php echo $produk_data['preview']; ?>" data-product-id="<?php echo $produk_data['id']; ?>">
-                                        <iframe id="preview-video-<?php echo $produk_data['id']; ?>" class="hidden absolute inset-0 w-full h-full rounded-2xl" allowfullscreen></iframe>
-                                        <button id="play-button-preview-<?php echo $produk_data['id']; ?>" onclick="openVideo('<?php echo $produk_data['preview']; ?>', '<?php echo $produk_data['id']; ?>', 'preview')" class="play-button absolute inset-0 flex justify-center items-center text-white text-4xl"><i class="fas fa-play"></i></button>
-                                    </div>
-                                </div>
-                                <div class="flex flex-col justify-center items-center w-[50%] md:w-[45%] mt-3 ms-2 md:ms-3">
-                                    <h1 class="halloween text-[#312E35] bg-[#F3E9D3] text-center rounded-full font-1-2rem mb-3 px-8">Trailer</h1>
-                                    <div class="w-full rounded-2xl relative" style="cursor: pointer;">
-                                        <img src="<?php echo $produk_data['img-trailer']; ?>" alt="Trailer Image" class="w-full h-auto rounded-2xl trailer-image" data-trailer-url="<?php echo $produk_data['trailer']; ?>" data-product-id="<?php echo $produk_data['id']; ?>">
-                                        <iframe id="trailer-video-<?php echo $produk_data['id']; ?>" class="hidden absolute inset-0 w-full h-full rounded-2xl" allowfullscreen></iframe>
-                                        <button id="play-button-trailer-<?php echo $produk_data['id']; ?>" onclick="openVideo('<?php echo $produk_data['trailer']; ?>', '<?php echo $produk_data['id']; ?>', 'trailer')" class="play-button absolute inset-0 flex justify-center items-center text-white text-4xl"><i class="fas fa-play"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php
-                    }
-                    ?>
-                </div> -->
+        <div class="flex flex-col justify-center items-center">
+            <?php include 'produk.php'; ?>
+            <?php foreach ($products as $product) : ?>
+            <div class="bg-1 w-full flex flex-row items-center">
+                <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
+                <div class="bg-[#F3F3FD] py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
+                        <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
+                    </div>
+                </div>
+                <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+            <?php endforeach; ?>
         </div>
     </div>
 

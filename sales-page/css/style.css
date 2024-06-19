@@ -254,6 +254,11 @@
     object-fit: cover;
 }
 
+.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .border-gradient-2 {
     border-bottom: 3px solid;
     border-image: radial-gradient(circle, rgba(243, 243, 253, 1) 75%, rgba(104, 69, 250, 1) 100%);
