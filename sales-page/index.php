@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="img/" type="image/x-icon"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sales Page - FitMeal</title>
 </head>
@@ -122,7 +122,7 @@
                 Elevate your culinary creations and empower your wellness journey with our exclusive Re-seller right. This limited-time bonus grants you access to a treasure trove of 150+ exclusive, health-focused recipes designed to support your specific needs and unlock a world of delicious possibilities.
             </p>
 
-            <a id="cta" class="bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold mb-16" href="#">Get Instant Access Now</a>
+            <a id="cta" class="bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold mb-16" href="#payment">Get Instant Access Now</a>
         </div>
     </div>
 
@@ -213,7 +213,7 @@
                 Are You Ready To Revolutionize Your Reselling Business And Amplify Your Profits? Introducing Our Premium Digital Product Spookids - The Ultimate Solution Designed Exclusively For Resellers Like You, Now Available With a Flexible Reseller License!
             </p>
 
-            <a id="cta" class="mt-16 bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold" href="#">Get Instant Access Now</a>
+            <a id="cta" class="mt-16 bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold" href="#payment">Get Instant Access Now</a>
 
         </div>
     </div>
@@ -295,9 +295,9 @@
         <div class="flex flex-col justify-center items-center">
             <?php include 'produk.php'; ?>
             <?php foreach ($products as $product) : ?>
-            <div class="bg-1 w-full flex flex-row items-center">
-                <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
-                <div class="bg-[#F3F3FD] py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
+                <div class="bg-1 w-full flex flex-row items-center">
+                    <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
+                    <div class="bg-[#F3F3FD] py-3 md:py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
                         <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
                     </div>
                 </div>
@@ -493,7 +493,7 @@
                 </div>
             </div>
 
-            <a id="cta" class="bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold mt-8 md:mt-16" href="#">Get Instant Access Now</a>
+            <a id="cta" class="bg-card rounded-lg py-5 px-20 satoshi text-[#FFFFFF] font-1-5rem font-bold mt-8 md:mt-16" href="#payment">Get Instant Access Now</a>
 
         </div>
     </div>
@@ -671,7 +671,7 @@
         </div>
     </div>
 
-    <div id="cta1" class="container-lg bg-[#F3F3FD]">
+    <div id="payment" class="container-lg bg-[#F3F3FD]">
         <div class="flex flex-col items-center justify-center text-[#F3E9D3] text-center py-16 px-5 md:px-0">
             <h1 class="poppins-bold text-[#121212] text-center font-2-5rem w-full md:w-[70%] leading-tight tracking-wider mb-12">
                 Don't Wait Any Longer... <br>

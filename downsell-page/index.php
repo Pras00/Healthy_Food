@@ -209,39 +209,19 @@
     </div>
 
     <div id="display" class="bg-[#F3F3FD] container-lg">
-        <div class="flex flex-row items-center justify-center py-8 md:py-16 px-5 md:px-16">
-            <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 gap-8">
-                <?php
-                include 'produk.php';
-
-                foreach ($produk as $produk_data) {
-                ?>
-                    <div class="bg-5 rounded-2xl flex flex-col justify-center items-center p-5 md:p-8">
-                        <h1 class="bg-[#FC9850] rounded-full halloween font-1-5rem px-12 py-2 mb-5 text-center text-[#312E35] leading-none"><?php echo $produk_data['title']; ?></h1>
-                        <p class="montserrat-regular font-1rem text-justify text-[#F3E9D3]"><?php echo $produk_data['paragraph']; ?></p>
-                        <div class="flex flex-row justify-center items-center">
-                            <div class="flex flex-col justify-center items-center w-[50%] md:w-[45%] mt-3 me-2 md:me-3">
-                                <h1 class="halloween text-[#312E35] bg-[#F3E9D3] text-center rounded-full font-1-2rem mb-3 px-8">Preview</h1>
-                                <div class="w-full rounded-2xl relative" style="cursor: pointer;">
-                                    <img src="<?php echo $produk_data['img-preview']; ?>" alt="Preview Image" class="w-full h-auto rounded-2xl preview-image" data-preview-url="<?php echo $produk_data['preview']; ?>" data-product-id="<?php echo $produk_data['id']; ?>">
-                                    <iframe id="preview-video-<?php echo $produk_data['id']; ?>" class="hidden absolute inset-0 w-full h-full rounded-2xl" allowfullscreen></iframe>
-                                    <button id="play-button-preview-<?php echo $produk_data['id']; ?>" onclick="openVideo('<?php echo $produk_data['preview']; ?>', '<?php echo $produk_data['id']; ?>', 'preview')" class="play-button absolute inset-0 flex justify-center items-center text-white text-4xl"><i class="fas fa-play"></i></button>
-                                </div>
-                            </div>
-                            <div class="flex flex-col justify-center items-center w-[50%] md:w-[45%] mt-3 ms-2 md:ms-3">
-                                <h1 class="halloween text-[#312E35] bg-[#F3E9D3] text-center rounded-full font-1-2rem mb-3 px-8">Trailer</h1>
-                                <div class="w-full rounded-2xl relative" style="cursor: pointer;">
-                                    <img src="<?php echo $produk_data['img-trailer']; ?>" alt="Trailer Image" class="w-full h-auto rounded-2xl trailer-image" data-trailer-url="<?php echo $produk_data['trailer']; ?>" data-product-id="<?php echo $produk_data['id']; ?>">
-                                    <iframe id="trailer-video-<?php echo $produk_data['id']; ?>" class="hidden absolute inset-0 w-full h-full rounded-2xl" allowfullscreen></iframe>
-                                    <button id="play-button-trailer-<?php echo $produk_data['id']; ?>" onclick="openVideo('<?php echo $produk_data['trailer']; ?>', '<?php echo $produk_data['id']; ?>', 'trailer')" class="play-button absolute inset-0 flex justify-center items-center text-white text-4xl"><i class="fas fa-play"></i></button>
-                                </div>
-                            </div>
+        <div class="flex flex-row items-center justify-center">
+            <div class="flex flex-col justify-center items-center">
+                <?php include 'produk.php'; ?>
+                <?php foreach ($products as $product) : ?>
+                    <div class="bg-1 w-full flex flex-row items-center">
+                        <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
+                        <div class="bg-[#F3F3FD] py-3 md:py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
+                            <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
                         </div>
                     </div>
-                <?php
-                }
-                ?>
-            </div> -->
+                    <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+                <?php endforeach; ?>
+            </div>
         </div>
     </div>
 
@@ -256,7 +236,7 @@
                 </h5>
 
                 <p class="satoshi font-1-5rem mt-8 w-full md:w-[75%]">
-                    You Get More Spooktacular Story And Able To Re-Sell Under Your Own Brand
+                    You Get More Exclusive Healthy Recipe And Able To Re-Sell Under Your Own Brand
                 </p>
 
                 <!-- <img class="w-[100%] md:w-[55%] my-8" src="img/limited.png" alt=""> -->
