@@ -325,6 +325,23 @@
     </div>
   </section>
 
+  <!-- Module -->
+  <section id="produk" class="bg-[#FFFFFF] container-lg">
+    <div class="flex flex-col justify-center items-center">
+      <?php include 'produk.php'; ?>
+      <?php foreach ($products as $product) : ?>
+        <div class="bg-1 w-full flex flex-row items-center">
+          <img class="w-[10%] max-[992px]:w-[15%] max-[768px]:w-[18%] mx-16 max-[992px]:mx-12 max-[768px]:mx-8 max-[500px]:mx-5" src="img/logo.png" alt="Logo">
+          <div class="bg-[#F3F3FD] py-8 max-[768px]:py-5 max-[468px]:py-4 w-full flex justify-center" style="clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);">
+            <h1 class="text-[2.5rem] max-[992px]:text-[2rem] max-[768px]:text-[1.75rem] max-[600px]:text-[1.25rem] font-bold text-[#303030]"><?php echo $product['title']; ?></h1>
+          </div>
+        </div>
+        <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+      <?php endforeach; ?>
+    </div>
+  </section>
+
+
 
   <!-- Affilate Contest -->
   <section id="contest" class="relative border-gradient-1 flex flex-col place-items-center bg-[#EAEEFC] bg-[url('./img/bg-3.png')] bg-cover bg-no-repeat bg-center w-full py-16 max-[768px]:py-12 max-[480px]:py-8 px-20 max-[480px]:px-5">
