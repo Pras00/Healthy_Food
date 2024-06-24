@@ -204,6 +204,11 @@
     }
 }
 
+.z-index {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}  
 
 .bg-1 {
     background-image: linear-gradient(rgba(58, 142, 246, 1), rgba(111, 58, 250, 1));

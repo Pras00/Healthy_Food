@@ -151,7 +151,7 @@
             </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 w-full md:w-[90%]">
-                <div class="bg-[#FFFFFF] rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
+                <div class="bg-4 rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
                     <div class="flex flex-col justify-center text-start text-[#696969]">
                         <h1 class="text-[#121212] satoshi font-bold font-1-2rem pb-4 mb-4 border-b-4 border-[#1678F2]">
                             Unlock a Culinary Universe of 350+ Exclusive Recipes
@@ -161,7 +161,7 @@
                         </h3>
                     </div>
                 </div>
-                <div class="bg-[#FFFFFF] rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
+                <div class="bg-4 rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
                     <div class="flex flex-col justify-center text-start text-[#696969]">
                         <h1 class="text-[#121212] satoshi font-bold font-1-2rem pb-4 mb-4 border-b-4 border-[#1678F2]">
                             Embark on a Personalized Wellness Journey
@@ -171,7 +171,7 @@
                         </h3>
                     </div>
                 </div>
-                <div class="bg-[#FFFFFF] rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
+                <div class="bg-4 rounded-2xl drop-shadow-2xl px-8 md:px-12 py-16">
                     <div class="flex flex-col justify-center text-start text-[#696969]">
                         <h1 class="text-[#121212] satoshi font-bold font-1-2rem pb-4 mb-4 border-b-4 border-[#1678F2]">
                             Maximize Your Wellness Results
@@ -184,13 +184,30 @@
             </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#1678F2" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
+        <div class="w-full relative my-8 md:my-16">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1678F2" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" transform="rotate(180)">
-            <path fill="#1678F2" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" transform="rotate(180)">
+                <path fill="#1678F2" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+
+            <div class="flex justify-center items-center">
+                <div class="grid grid-cols-5 md:grid-cols-4 lg:grid-cols-5 grid-rows-1 gap-3 md:gap-5 w-[90%] md:w-[80%] mx-5 z-index">
+                    <img class="w-full" src="img/cover1.png" alt="">
+                    <img class="w-full" src="img/cover2.png" alt="">
+                    <img class="w-full" src="img/cover3.png" alt="">
+                    <img class="w-full" src="img/cover4.png" alt="">
+                    <img class="w-full" src="img/cover5.png" alt="">
+                    <img class="w-full" src="img/cover6.png" alt="">
+                    <img class="w-full" src="img/cover7.png" alt="">
+                    <img class="w-full" src="img/cover8.png" alt="">
+                    <img class="w-full" src="img/cover9.png" alt="">
+                    <img class="w-full" src="img/cover10.png" alt="">
+                </div>
+            </div>
+        </div>
 
         <div class="flex flex-col items-center justify-center text-center pb-8 md:pb-12 px-3 md:px-0">
             <div class="w-full md:w-[80%] flex flex-col justify-center items-center">
@@ -209,20 +226,52 @@
         </div>
     </div>
 
-    <div id="display" class="bg-1 container-lg">
-        <div class="flex flex-row items-center justify-center">
-            <div class="flex flex-col justify-center items-center">
-                <?php include 'produk.php'; ?>
-                <?php foreach ($products as $product) : ?>
-                    <div class="bg-1 w-full flex flex-row items-center">
-                        <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
-                        <div class="bg-[#F3F3FD] py-3 md:py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
-                            <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
+    <div id="display" class="container-lg relative">
+        <div class="flex flex-col justify-center items-center">
+            <?php include 'produk.php'; ?>
+            <?php foreach ($products as $product) : ?>
+                <div class="bg-1 w-full flex flex-row items-center">
+                    <img class="w-[20%] md:w-[10%] mx-5 md:mx-16" src="img/logo.png" alt="Logo">
+                    <div class="bg-[#F3F3FD] py-3 md:py-8 w-full flex justify-center" style="clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);">
+                        <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
+                    </div>
+                </div>
+
+                <img class="img-z-index" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+
+
+                <div class="bg-[#FFFFFF] flex flex-col justify-center items-center">
+                    <div class="bg-1 w-[95%] md:w-[70%] p-5 rounded-2xl border-t-[5px] border-r-[5px] border-[#FFDE59] my-5">
+                        <p class="satoshi text-[#FFFFFF] font-1-2rem px-3 capitalize text-justify">
+                            <?php echo $product['desc']; ?>
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap flex-row justify-center items-center mb-5 font-1-2rem">
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">E-Recipe Books</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">25 Delicious Recipe</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[13%] md:w-[13%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold"><?php echo $product['page']; ?> Pages</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">25 Recipe</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">Editable</p>
                         </div>
                     </div>
-                    <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
-                <?php endforeach; ?>
-            </div>
+                </div>
+
+            <?php endforeach; ?>
         </div>
     </div>
 

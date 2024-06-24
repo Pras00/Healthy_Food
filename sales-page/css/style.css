@@ -160,6 +160,12 @@
         border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 75%, rgba(243, 243, 253, 1) 100%);
         border-image-slice: 1;
     }
+
+    .z-index {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+    }   
 }
 
 @media (min-width: 768px) {
@@ -202,6 +208,12 @@
         border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
         border-image-slice: 1;
     }
+
+    .z-index {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+    }    
 }
 
 
@@ -236,7 +248,10 @@
         linear-gradient(rgba(58, 142, 246, 1), rgba(111, 58, 250, 1));
 }
 
-
+.bg-display {
+    background-image: url('../img/bg-display.png');
+    background-size: cover;
+}
 
 .bg-video {
     position: relative;

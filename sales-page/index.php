@@ -68,7 +68,7 @@
                 </div>
                 <div class="bg-[#FFFFFF] px-4 md:px-5 lg:px-6 py-5 w-full rounded-b-2xl border-t-8 border-[#1678F2] drop-shadow-2xl">
                     <div class="flex flex-col justify-start">
-                        <img class=" w-[10%] md:w-[10%] me-5 mb-3 md:mb-5" src="img/icon.png" alt="">
+                        <i class="fas fa-download fa-2x text-[#1678F2] me-5 mb-3 md:mb-5"></i>
                         <h3 class="font-1-5rem satoshi font-semibold">
                             Downloadable Resources Section
                         </h3>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="bg-[#FFFFFF] px-4 md:px-5 lg:px-6 py-5 w-full rounded-b-2xl border-t-8 border-[#1678F2] drop-shadow-2xl">
                     <div class="flex flex-col justify-start">
-                        <img class=" w-[10%] md:w-[10%] me-5 mb-3 md:mb-5" src="img/icon.png" alt="">
+                        <i class="fas fa-book fa-2x text-[#1678F2] me-5 mb-3 md:mb-5"></i>
                         <h3 class="font-1-5rem satoshi font-semibold">
                             High-Quality E-book & Cover Content
                         </h3>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="bg-[#FFFFFF] px-4 md:px-5 lg:px-6 py-5 w-full rounded-b-2xl border-t-8 border-[#1678F2] drop-shadow-2xl">
                     <div class="flex flex-col justify-start">
-                        <img class=" w-[10%] md:w-[10%] me-5 mb-3 md:mb-5" src="img/icon.png" alt="">
+                        <i class="fas fa-share fa-2x text-[#1678F2] me-5 mb-3 md:mb-5"></i>
                         <h3 class="font-1-5rem satoshi font-semibold">
                             Shareable E-Book Recipe
                         </h3>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="bg-[#FFFFFF] px-4 md:px-5 lg:px-6 py-5 w-full rounded-b-2xl border-t-8 border-[#1678F2] drop-shadow-2xl">
                     <div class="flex flex-col justify-start">
-                        <img class=" w-[10%] md:w-[10%] me-5 mb-3 md:mb-5" src="img/icon.png" alt="">
+                        <i class="fas fa-edit fa-2x text-[#1678F2] me-5 mb-3 md:mb-5"></i>
                         <h3 class="font-1-5rem satoshi font-semibold">
                             Craft Your Perfect Plate
                         </h3>
@@ -134,7 +134,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-8 md:gap-12 my-8 md:my-12 mx-3 md:mx-8 lg:mx-16 w-full md:w-[90%]">
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
+                    <i class="fas fa-brain fa-2x text-[#1678F2]"></i>
+                    <h3 class="satoshi font-bold font-1-2rem my-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Restricted and Uninspired by Bland Diets
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
@@ -142,7 +143,8 @@
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
+                    <i class="fab fa-nutritionix fa-2x text-[#1678F2]"></i>
+                    <h3 class="satoshi font-bold font-1-2rem my-4 pb-4 border-b-4 border-[#1678F2] ">
                         Juggling Busy Lives with Confusing Nutritional Information
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
@@ -150,7 +152,8 @@
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
+                    <i class="fas fa-hamburger fa-2x text-[#1678F2]"></i>
+                    <h3 class="satoshi font-bold font-1-2rem my-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Lost and Uncertain About Managing Health Through Food
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
@@ -161,7 +164,8 @@
 
             <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 w-full md:w-3/5 mb-16">
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
+                    <i class="fas fa-notes-medical fa-2x text-[#1678F2]"></i>
+                    <h3 class="satoshi font-bold font-1-2rem my-4 pb-4 border-b-4 border-[#1678F2] ">
                         Lack of Variety and Feeling Discouraged by Limited Recipe Options
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
@@ -169,7 +173,8 @@
                     </p>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-lg px-8 md:px-8 py-16 text-start text-[#121212]">
-                    <h3 class="satoshi font-bold font-1-2rem mb-4 pb-4 border-b-4 border-[#1678F2] ">
+                    <i class="fas fa-walking fa-2x text-[#1678F2]"></i>
+                    <h3 class="satoshi font-bold font-1-2rem my-4 pb-4 border-b-4 border-[#1678F2] ">
                         Feeling Isolated and Alone in Their Health Journey
                     </h3>
                     <p class="satoshi font-1rem text-justify text-[#696969] capitalize">
@@ -260,13 +265,30 @@
             </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#F3F3FD" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
+        <div class="w-full relative my-8 md:my-16">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F3F3FD" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" transform="rotate(180)">
-            <path fill="#F3F3FD" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" transform="rotate(180)">
+                <path fill="#F3F3FD" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,234.7C640,267,800,245,960,208C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+
+            <div class="flex justify-center items-center">
+                <div class="grid grid-cols-5 md:grid-cols-4 lg:grid-cols-5 grid-rows-1 gap-3 md:gap-5 w-[90%] md:w-[80%] mx-5 z-index">
+                    <img class="w-full" src="img/cover1.png" alt="">
+                    <img class="w-full" src="img/cover2.png" alt="">
+                    <img class="w-full" src="img/cover3.png" alt="">
+                    <img class="w-full" src="img/cover4.png" alt="">
+                    <img class="w-full" src="img/cover5.png" alt="">
+                    <img class="w-full" src="img/cover6.png" alt="">
+                    <img class="w-full" src="img/cover7.png" alt="">
+                    <img class="w-full" src="img/cover8.png" alt="">
+                    <img class="w-full" src="img/cover9.png" alt="">
+                    <img class="w-full" src="img/cover10.png" alt="">
+                </div>
+            </div>
+        </div>
 
         <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" transform="rotate(180)">
             <path fill="#F3F3FD" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,240C384,235,480,149,576,149.3C672,149,768,235,864,261.3C960,288,1056,256,1152,202.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -291,7 +313,7 @@
         </div>
     </div>
 
-    <div id="produk" class="bg-[#FFFFFF] container-lg">
+    <div id="produk" class="container-lg relative">
         <div class="flex flex-col justify-center items-center">
             <?php include 'produk.php'; ?>
             <?php foreach ($products as $product) : ?>
@@ -301,7 +323,41 @@
                         <h1 class="poppins-bold font-2rem"><?php echo $product['title']; ?></h1>
                     </div>
                 </div>
-                <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+
+                <img class="img-z-index" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+
+
+                <div class="bg-[#FFFFFF] flex flex-col justify-center items-center">
+                    <div class="bg-1 w-[95%] md:w-[70%] p-5 rounded-2xl border-t-[5px] border-r-[5px] border-[#FFDE59] my-5">
+                        <p class="satoshi text-[#FFFFFF] font-1-2rem px-3 capitalize text-justify">
+                            <?php echo $product['desc']; ?>
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap flex-row justify-center items-center mb-5 font-1-2rem">
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">E-Recipe Books</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">25 Delicious Recipe</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[13%] md:w-[13%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold"><?php echo $product['page']; ?> Pages</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">25 Recipe</p>
+                        </div>
+                        <div class="flex flex-row items-center mb-3">
+                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
+                            <p class="satoshi text-[#121212] font-bold">Editable</p>
+                        </div>
+                    </div>
+                </div>
+
             <?php endforeach; ?>
         </div>
     </div>
@@ -478,18 +534,13 @@
                     <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Minutes</p>
                 </div>
                 <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
-                <div class="timer w-24 sm:w-28">
-                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                <div class="timer w-20 sm:w-40">
+                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden flex flex-row items-center justify-center">
                         <h3 class="countdown-element seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
-                    </div>
-                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
-                </div>
-                <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
-                <div class="timer w-24 sm:w-28">
-                    <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+                        <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-white">.</h3>
                         <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
                     </div>
-                    <p class="text-sm sm:text-lg satoshi font-bold text-gray-900 mt-1 text-center w-full">ms</p>
+                    <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
                 </div>
             </div>
 
