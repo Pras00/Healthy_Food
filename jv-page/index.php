@@ -200,7 +200,7 @@
           </div>
         </div>
         <div class="flex justify-center items-center mt-2 mb-5">
-          <a class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] text-white text-[1.15rem] px-8 py-2 rounded-[20px] hover:scale-105 duration-200" href="#">Sales Page</a>
+          <a class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] text-white text-[1.15rem] px-8 py-2 rounded-[20px] hover:scale-105 duration-200" href="../sales-page/index.php">Sales Page</a>
         </div>
       </div>
       <div class="bg-white rounded-[30px] border-[4px] border-[#6F3AFA]">
@@ -262,7 +262,7 @@
           </div>
         </div>
         <div class="flex justify-center items-center mt-2 mb-5">
-          <a class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] text-white text-[1.15rem] px-8 py-2 rounded-[20px] hover:scale-105 duration-200" href="#">Sales Page</a>
+          <a class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] text-white text-[1.15rem] px-8 py-2 rounded-[20px] hover:scale-105 duration-200" href="../sales-page/index.php">Sales Page</a>
         </div>
       </div>
     </div>
