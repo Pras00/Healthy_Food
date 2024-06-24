@@ -115,18 +115,13 @@
         <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Minutes</p>
     </div>
     <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
-    <div class="timer w-24 sm:w-28">
-        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+    <div class="timer sm:w-36">
+        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden flex justify-center items-center">
             <h3 class="countdown-element seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
-        </div>
-        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
-    </div>
-    <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-[#121212] hidden sm:block">:</h3>
-    <div class="timer w-24 sm:w-28"> 
-        <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden">
+            <p class="text-[3rem] text-white leading-[1rem]">.</p>
             <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
         </div>
-        <p class="text-sm sm:text-lg satoshi font-bold text-gray-900 mt-1 text-center w-full">ms</p>
+        <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
     </div>
   </div>
 
@@ -169,38 +164,38 @@
           <h3 class="text-white text-[1.15rem] max-[1024px]:text-[1rem] text-center font-medium">There are 10 Modules at The Frontend Sales Page</h3>
         </div>
         <div class="flex justify-evenly items-center gap-10 text-left p-5">
-          <div class="text-left">
+          <div class="flex flex-col justify-start items-start">
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Acid Reflux</p>
             </div>
             <div class="flex place-content-center">
               <p>Hipertensi</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Hearth Attack</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Osteoporosis</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Kidney Stone</p>
             </div>
           </div>
-          <div class="text-left">
+          <div class="flex flex-col justify-start items-start">
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Leukimia</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Hemorrhoids</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Rheumatoid Arthritis</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Acne</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Underweight</p>
             </div>
           </div>
         </div>
@@ -214,55 +209,55 @@
           <h3 class="text-white text-[1.15rem] max-[1024px]:text-[1rem] text-center font-medium">There are 15 Modules at The Upsell Sales Page</h3>
         </div>
         <div class="flex justify-evenly items-start gap-10 text-left p-5">
-          <div class="text-left">
+          <div class="flex flex-col justify-start items-start">
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Kidney Failure</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Stroke</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Chickenpox</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Cancer</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Appendicitis</p>
             </div>
           </div>
-          <div class="text-left">
+          <div class="flex flex-col justify-start items-start">
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>HIV</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Gallstone</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>TBC</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Diabetes</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Asthma</p>
             </div>
           </div>
-          <div class="text-left">
+          <div class="flex flex-col justify-start items-start">
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Vertigo</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Alzheimer</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Autoimmune</p>
             </div>
             <div class="flex place-content-center">
-              <p>Hipertensi</p>
+              <p>Liver</p>
             </div>
             <div class="flex justify-start items-center">
-              <p>Diabetes</p>
+              <p>Galucoma</p>
             </div>
           </div>
         </div>
@@ -337,6 +332,37 @@
           </div>
         </div>
         <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+        <div class="h-[10rem] max-[950px]:h-[12rem] max-[768px]:h-[10rem] max-[700px]:h-[12rem] max-[576px]:h-[14rem] max-[490px]:h-[15rem] max-[480px]:h-[13rem] max-[432px]:h-[14rem] max-[360px]:w-[17rem] w-full relative">
+          <div class="flex flex-col justify-center items-center w-full absolute z-10 top-[-25%]">
+            <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] border-[#FFDE59] border-t-[4px] border-r-[4px] rounded-[20px] w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%] p-5 drop-shadow-[3px_3px_7px_rgba(0,0,0,0.6)]">
+              <p class="text-white text-center max-[768px]:text-[0.9rem] max-[480px]:text-[0.8rem]">
+              <?php echo $product['desc']; ?>
+              </p>
+            </div>
+            <div class="flex max-[768px]:flex-wrap justify-evenly items-center gap-2 mt-6 w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%]">
+              <div class="flex justify-center items-center gap-2">
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">E-Recipe Books</p>
+              </div>
+              <div class="flex justify-center items-center gap-2">
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Delicious Recipes</p>
+              </div>
+              <div class="flex justify-center items-center gap-2">
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]"><?php echo $product['page']; ?> Pages</p>
+              </div>
+              <div class="flex justify-center items-center gap-2">
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Recipes</p>
+              </div>
+              <div class="flex justify-center items-center gap-2">
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">Editable</p>
+              </div>
+            </div>
+          </div>
+        </div>
       <?php endforeach; ?>
     </div>
   </section>
