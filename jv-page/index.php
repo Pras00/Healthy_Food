@@ -272,7 +272,7 @@
     <div class="px-28 mb-10">
       <h3 class="text-center text-[2.5rem] max-[992px]:text-[2rem] max-[768px]:text-[1.5rem] max-[480px]:text-[1.1rem] leading-[2.75rem] max-[768px]:leading-[2rem] max-[480px]:leading-[1.5rem] font-semibold">Here are some specific examples <br> of how can be used by different professions:</h3>
     </div>
-    <div class="flex flex-col justify-center items-center gap-5 px-64 max-[768px]:px-10 max-[480px]:px-1">
+    <div class="flex flex-col justify-center items-center gap-5 px-64 max-[1196px]:px-36 max-[1024px]:px-28 max-[992px]:px-32 max-[768px]:px-10 max-[480px]:px-1">
       <div class="grid grid-cols-2 max-[992px]:grid-cols-1 max-[768px]:grid-cols-1 max-[480px]:grid-cols-1 gap-x-10 gap-y-5">
         <div class="flex justify-center items-center gap-3 py-2 bg-[#3A8EF6] rounded-[50px] px-8 max-[480px]:px-5 drop-shadow-[1px_2px_5px_rgba(0,0,0,0.3)] border-[2px] border-white">
           <img class="w-[3rem] max-[480px]:w-[3.25rem]" src="./img/nutritionist.png" alt="">
@@ -321,7 +321,7 @@
   </section>
 
   <!-- Module -->
-  <section id="produk" class="bg-[#FFFFFF] container-lg">
+  <section id="produk" class="bg-[#EAEEFC] container-lg">
     <div class="flex flex-col justify-center items-center">
       <?php include 'produk.php'; ?>
       <?php foreach ($products as $product) : ?>
@@ -332,33 +332,33 @@
           </div>
         </div>
         <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
-        <div class="h-[10rem] max-[950px]:h-[12rem] max-[768px]:h-[10rem] max-[700px]:h-[12rem] max-[576px]:h-[14rem] max-[490px]:h-[15rem] max-[480px]:h-[13rem] max-[432px]:h-[14rem] max-[360px]:w-[17rem] w-full relative">
+        <div class="h-[18rem] max-[1392px]:h-[20rem] max-[1253px]:h-[20rem] max-[992px]:h-[18rem] max-[870px]:h-[20rem] max-[768px]:h-[16rem] max-[680px]:h-[19rem] max-[610px]:h-[20rem] max-[576px]:h-[18rem] max-[530px]:h-[19rem] max-[480px]:h-[20rem] max-[428px]:h-[22rem] max-[380px]:h-[20rem] w-full relative">
           <div class="flex flex-col justify-center items-center w-full absolute z-10 top-[-25%]">
-            <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] border-[#FFDE59] border-t-[4px] border-r-[4px] rounded-[20px] w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%] p-5 drop-shadow-[3px_3px_7px_rgba(0,0,0,0.6)]">
-              <p class="text-white text-center max-[768px]:text-[0.9rem] max-[480px]:text-[0.8rem]">
+            <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] border-[#FFDE59] border-t-[4px] border-r-[4px] rounded-[20px] w-[60%] max-[1254px]:w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%] p-5 drop-shadow-[3px_3px_7px_rgba(0,0,0,0.6)]">
+              <p class="text-white text-center max-[992px]:text-[0.9rem] max-[768px]:text-[0.8rem] max-[576px]:text-[0.7rem] max-[380px]:text-[0.6rem]">
               <?php echo $product['desc']; ?>
               </p>
             </div>
-            <div class="flex max-[768px]:flex-wrap justify-evenly items-center gap-2 mt-6 w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%]">
+            <div class="flex max-[768px]:flex-wrap justify-evenly items-center gap-2 mt-6 w-[60%] max-[1254px]:w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%]">
               <div class="flex justify-center items-center gap-2">
-                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
-                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">E-Recipe Books</p>
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[768px]:w-[1.15rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem] max-[768px]:text-[0.7rem]">E-Recipe Books</p>
               </div>
               <div class="flex justify-center items-center gap-2">
-                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
-                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Delicious Recipes</p>
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[768px]:w-[1.15rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem] max-[768px]:text-[0.7rem]">25 Delicious Recipes</p>
               </div>
               <div class="flex justify-center items-center gap-2">
-                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
-                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]"><?php echo $product['page']; ?> Pages</p>
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[768px]:w-[1.15rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem] max-[768px]:text-[0.7rem]"><?php echo $product['page']; ?> Pages</p>
               </div>
               <div class="flex justify-center items-center gap-2">
-                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
-                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Recipes</p>
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[768px]:w-[1.15rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem] max-[768px]:text-[0.7rem]">25 Recipes</p>
               </div>
               <div class="flex justify-center items-center gap-2">
-                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="./img/checklist.png" alt="">
-                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">Editable</p>
+                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[768px]:w-[1.15rem]" src="./img/checklist.png" alt="">
+                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem] max-[768px]:text-[0.7rem]">Editable</p>
               </div>
             </div>
           </div>
