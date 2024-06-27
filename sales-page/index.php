@@ -313,7 +313,7 @@
         </div>
     </div>
 
-    <div id="produk" class="container-lg relative">
+    <div id="produk" class="bg-[#FFFFFF] container-lg relative">
         <div class="flex flex-col justify-center items-center">
             <?php include 'produk.php'; ?>
             <?php foreach ($products as $product) : ?>
@@ -324,36 +324,36 @@
                     </div>
                 </div>
 
-                <img class="img-z-index" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+                <img class="" src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
 
-
-                <div class="bg-[#FFFFFF] flex flex-col justify-center items-center">
-                    <div class="bg-1 w-[95%] md:w-[70%] p-5 rounded-2xl border-t-[5px] border-r-[5px] border-[#FFDE59] my-5">
-                        <p class="satoshi text-[#FFFFFF] font-1-2rem px-3 capitalize text-justify">
-                            <?php echo $product['desc']; ?>
-                        </p>
-                    </div>
-
-                    <div class="flex flex-wrap flex-row justify-center items-center mb-5 font-1-2rem">
-                        <div class="flex flex-row items-center mb-3">
-                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
-                            <p class="satoshi text-[#121212] font-bold">E-Recipe Books</p>
+                <div class="h-[18rem] max-[1392px]:h-[20rem] max-[1253px]:h-[20rem] max-[992px]:h-[18rem] max-[870px]:h-[20rem] max-[768px]:h-[16rem] max-[680px]:h-[19rem] max-[610px]:h-[20rem] max-[576px]:h-[18rem] max-[530px]:h-[19rem] max-[480px]:h-[25rem] max-[428px]:h-[22rem] max-[380px]:h-[20rem] w-full relative">
+                    <div class="flex flex-col justify-center items-center w-full absolute z-10 top-[-25%]">
+                        <div class="bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] border-[#FFDE59] border-t-[4px] border-r-[4px] rounded-[20px] w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%] p-5 drop-shadow-[3px_3px_7px_rgba(0,0,0,0.6)] satoshi">
+                            <p class="text-white text-center max-[768px]:text-[0.9rem] max-[480px]:text-[0.8rem] capitalize">
+                                <?php echo $product['desc']; ?>
+                            </p>
                         </div>
-                        <div class="flex flex-row items-center mb-3">
-                            <img class="w-[10%] md:w-[10%] me-2" src="img/list.png" alt="">
-                            <p class="satoshi text-[#121212] font-bold">25 Delicious Recipe</p>
-                        </div>
-                        <div class="flex flex-row items-center mb-3">
-                            <img class="w-[13%] md:w-[13%] me-2" src="img/list.png" alt="">
-                            <p class="satoshi text-[#121212] font-bold"><?php echo $product['page']; ?> Pages</p>
-                        </div>
-                        <div class="flex flex-row items-center mb-3">
-                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
-                            <p class="satoshi text-[#121212] font-bold">25 Recipe</p>
-                        </div>
-                        <div class="flex flex-row items-center mb-3">
-                            <img class="w-[15%] md:w-[15%] me-2" src="img/list.png" alt="">
-                            <p class="satoshi text-[#121212] font-bold">Editable</p>
+                        <div class="flex max-[768px]:flex-wrap justify-evenly items-center gap-2 mt-6 w-[70%] max-[1090px]:w-[80%] max-[768px]:w-[90%] satoshi">
+                            <div class="flex justify-center items-center gap-2">
+                                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="img/list.png" alt="">
+                                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">E-Recipe Books</p>
+                            </div>
+                            <div class="flex justify-center items-center gap-2">
+                                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="img/list.png" alt="">
+                                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Delicious Recipes</p>
+                            </div>
+                            <div class="flex justify-center items-center gap-2">
+                                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="img/list.png" alt="">
+                                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]"><?php echo $product['page']; ?> Pages</p>
+                            </div>
+                            <div class="flex justify-center items-center gap-2">
+                                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="img/list.png" alt="">
+                                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">25 Recipes</p>
+                            </div>
+                            <div class="flex justify-center items-center gap-2">
+                                <img class="w-[2rem] max-[992px]:w-[1.75rem] max-[860px]:w-[1.5rem] max-[480px]:w-[1.25rem]" src="img/list.png" alt="">
+                                <p class="font-semibold max-[992px]:text-[0.9rem] max-[800px]:text-[0.8rem]">Editable</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -538,7 +538,7 @@
                     <div class="bg-1 py-2 px-2 rounded-lg overflow-hidden flex flex-row items-center justify-center">
                         <h3 class="countdown-element seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
                         <h3 class="satoshi font-semibold text-[2rem] sm:text-[4rem] text-white">.</h3>
-                        <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond"></h3>
+                        <h3 class="countdown-element milli-seconds satoshi font-semibold text-[2rem] sm:text-[4rem] text-white text-center animate-countinsecond w-[40px]"></h3>
                     </div>
                     <p class="text-sm sm:text-lg satoshi font-bold text-[#121212] mt-1 text-center w-full">Seconds</p>
                 </div>
