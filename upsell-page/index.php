@@ -199,7 +199,7 @@
                     <img class="w-full" src="img/cover2.png" alt="">
                     <img class="w-full" src="img/cover3.png" alt="">
                     <img class="w-full" src="img/cover4.png" alt="">
-                    <img class="w-full" src="img/cover5.png" alt="">
+                    <img class="w-full" src="img/cover5.jpeg" alt="">
                     <img class="w-full" src="img/cover6.png" alt="">
                     <img class="w-full" src="img/cover7.png" alt="">
                     <img class="w-full" src="img/cover8.png" alt="">
